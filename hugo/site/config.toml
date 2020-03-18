@@ -1,0 +1,83 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "The Property Analyzer"
+theme = "hugo-theme-chunky-poster"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+paginate = 2
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+googleAnalytics = "UA-XXXX"
+DisqusShortname = ""
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 0
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+author = "authors"
+
+[params]
+  author = "Remis Haroon"
+  description = "The UAE RealEstate Properties Market Analyzer"
+  homepageImage = "/images/homepage-image.jpg"
+  share = true
+  showLanguageSwitcher = false
+
+  # Custom CSS and JS. Relative to /static/css and /static/js respectively.
+  customCSS = []
+  customJS = []
+
+  [params.social]
+    rss = true
+    email = "example@example.com"
+    facebook = "https://facebook.com"
+    twitter = "https://twitter.com"
+    linkedin = "https://linkedin.com"
+    stack-overflow = "https://stackoverflow.com"
+    instagram = "https://stackoverflow.com"
+    github = "https://github.com"
+    weibo = "https://www.weibo.com"
+    medium = "https://medium.com"
+    pinterest = "https://pinterest.com"
+    reddit = "https://reddit.com"
+    gitlab = "https://gitlab.com"
+    mastodon = "https://mastodon.social"
+    keybase = "https://keybase.io/"
+
+  [params.prismJS]
+    enable = true
+    theme = ""
+
+  [params.commento]
+    enable = true
+    url = "https://commento.io"
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true

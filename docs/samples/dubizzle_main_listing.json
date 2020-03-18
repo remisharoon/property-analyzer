@@ -1,0 +1,28 @@
+{
+  "@context": "http://schema.org",
+  "@type": "SingleFamilyResidence",
+  "name": "BRAND NEW STUDIO! | 3 YRS POST HANDOVER.",
+  "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2019/12/16/brand-new-studio-3-yrs-post-handover-2/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dubai",
+    "addressRegion": "Dubai"
+  },
+  "": {
+    "@type": "Product",
+    "name": "BRAND NEW STUDIO! | 3 YRS POST HANDOVER.",
+    "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2019/12/16/brand-new-studio-3-yrs-post-handover-2/",
+    "offers": {
+      "@type": "Offer",
+      "price": 393333,
+      "priceCurrency": "AED"
+    }
+  },
+  "floorSize": 369,
+  "image": "https://images.dubizzle.com/v1/files/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmbiI6ImZwanBzZjRyMjZwODItRFVCSVpaTEUiLCJ3IjpbeyJmbiI6IjVqZXVpN3FmemllNjEtRFVCSVpaTEUiLCJzIjozMCwicCI6ImNlbnRlciwxIiwiYSI6ODB9XX0.5zpiJPPYxzQLstJGSLRJOja1mVxzfL4xaPmo0yVTgIw/image;p=thumb_retina",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 55.2093505,
+    "longitude": 25.0601975
+  }
+}

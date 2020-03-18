@@ -1,0 +1,4718 @@
+    {
+    	"data": {
+    		"type": "search",
+    		"id": "0",
+    		"meta": {
+    			"ad_units": [{
+    				"id": "UAE_MPU_Top",
+    				"size": [{
+    					"width": 300,
+    					"height": 250
+    				}],
+    				"name": "mpu_top"
+    			}, {
+    				"id": "UAE_Halfpage",
+    				"size": [{
+    					"width": 300,
+    					"height": 600
+    				}],
+    				"name": "half_page_mpu",
+    				"position": 5
+    			}, {
+    				"id": "UAE_MPU_Lower",
+    				"size": [{
+    					"width": 300,
+    					"height": 250
+    				}],
+    				"name": "mpu_bottom",
+    				"position": 16
+    			}, {
+    				"id": "UAE_Panorama",
+    				"size": [{
+    					"width": 530,
+    					"height": 65,
+    					"viewportWidth": 600
+    				}, {
+    					"width": 728,
+    					"height": 90,
+    					"viewportWidth": 810
+    				}, {
+    					"width": 980,
+    					"height": 120,
+    					"viewportWidth": 1090
+    				}],
+    				"name": "panorama"
+    			}, {
+    				"id": "UAE_Community_Wallpaper_Background",
+    				"size": [{
+    					"width": 1145,
+    					"height": 350
+    				}],
+    				"name": "community_wallpaper_background"
+    			}, {
+    				"id": "UAE_Community_Wallpaper_Box",
+    				"size": [{
+    					"width": 560,
+    					"height": 185
+    				}],
+    				"name": "community_wallpaper_box"
+    			}, {
+    				"id": "UAE_Native",
+    				"size": [{
+    					"isFluid": true
+    				}],
+    				"name": "list",
+    				"position": 5
+    			}, {
+    				"id": "UAE_Native2",
+    				"size": [{
+    					"isFluid": true
+    				}],
+    				"name": "list",
+    				"position": 18
+    			}],
+    			"ad_targeting": {
+    				"Language": ["en"],
+    				"Page_type": ["front_search_results"],
+    				"Section": ["BUY"]
+    			},
+    			"h1_title": "Properties for sale in UAE",
+    			"similar_properties_title": "Similar properties near UAE",
+    			"breadcrumb_title": "Browse property types",
+    			"breadcrumbs": [{
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcad5",
+    				"attributes": {
+    					"name": "Apartments"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=1&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 25581
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcafa",
+    				"attributes": {
+    					"name": "Villas"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=35&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 10079
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcb0b",
+    				"attributes": {
+    					"name": "Townhouses"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=22&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 3592
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcb23",
+    				"attributes": {
+    					"name": "Land"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=5&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 1284
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcb32",
+    				"attributes": {
+    					"name": "Penthouses"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=20&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 729
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcb41",
+    				"attributes": {
+    					"name": "Whole Buildings"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=10&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 223
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcb4f",
+    				"attributes": {
+    					"name": "Duplexes"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=24&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 220
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcb5d",
+    				"attributes": {
+    					"name": "Hotel Apartments"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=45&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 186
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcb6b",
+    				"attributes": {
+    					"name": "Compounds"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=42&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 32
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcb79",
+    				"attributes": {
+    					"name": "Full Floors"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=18&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 27
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcb87",
+    				"attributes": {
+    					"name": "Bulk Sale Units"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=30&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 23
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcb95",
+    				"attributes": {
+    					"name": "Bungalows"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=31&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 12
+    				}
+    			}, {
+    				"type": "breadcrumb_item",
+    				"id": "5e6e14fdbcba3",
+    				"attributes": {
+    					"name": "Half Floors"
+    				},
+    				"links": {
+    					"self": "\/en\/search?c=1&q=&l=&t=29&kw=&pf=&pt=&bf=&bt=&af=&at=&cs=&ob=nd"
+    				},
+    				"meta": {
+    					"count": 6
+    				}
+    			}]
+    		},
+    		"relationships": {
+    			"properties": {
+    				"data": [{
+    					"type": "property",
+    					"id": "7454718"
+    				}, {
+    					"type": "property",
+    					"id": "7454712"
+    				}, {
+    					"type": "property",
+    					"id": "7454710"
+    				}, {
+    					"type": "property",
+    					"id": "7454708"
+    				}, {
+    					"type": "property",
+    					"id": "7454701"
+    				}, {
+    					"type": "property",
+    					"id": "7454698"
+    				}, {
+    					"type": "property",
+    					"id": "7454695"
+    				}, {
+    					"type": "property",
+    					"id": "7454690"
+    				}, {
+    					"type": "property",
+    					"id": "7454687"
+    				}, {
+    					"type": "property",
+    					"id": "7454685"
+    				}, {
+    					"type": "property",
+    					"id": "7454684"
+    				}, {
+    					"type": "property",
+    					"id": "7454683"
+    				}, {
+    					"type": "property",
+    					"id": "7454681"
+    				}, {
+    					"type": "property",
+    					"id": "7454679"
+    				}, {
+    					"type": "property",
+    					"id": "7454672"
+    				}, {
+    					"type": "property",
+    					"id": "7454669"
+    				}, {
+    					"type": "property",
+    					"id": "7454663"
+    				}, {
+    					"type": "property",
+    					"id": "7454662"
+    				}, {
+    					"type": "property",
+    					"id": "7454661"
+    				}, {
+    					"type": "property",
+    					"id": "7454660"
+    				}, {
+    					"type": "property",
+    					"id": "7454658"
+    				}, {
+    					"type": "property",
+    					"id": "7454656"
+    				}, {
+    					"type": "property",
+    					"id": "7454655"
+    				}, {
+    					"type": "property",
+    					"id": "7454654"
+    				}, {
+    					"type": "property",
+    					"id": "7454653"
+    				}],
+    				"meta": {
+    					"total_count": 41994,
+    					"page_count": 1680,
+    					"page": 1,
+    					"per_page": 25
+    				}
+    			},
+    			"smart_ads": {
+    				"data": [],
+    				"meta": {
+    					"total_count": 0,
+    					"page_count": 0,
+    					"page": 0,
+    					"per_page": 1
+    				}
+    			},
+    			"cts": {
+    				"data": [],
+    				"meta": {
+    					"total_count": 0,
+    					"page_count": 0,
+    					"page": 0,
+    					"per_page": 1
+    				}
+    			},
+    			"similar_properties": {
+    				"data": [],
+    				"meta": {
+    					"total_count": 0,
+    					"page_count": 0,
+    					"page": 0,
+    					"per_page": 1
+    				}
+    			},
+    			"agent_smart_ads": {
+    				"data": []
+    			},
+    			"agent_properties_smart_ads": {
+    				"data": [],
+    				"meta": {
+    					"total_count": 0,
+    					"page_count": 0,
+    					"page": 0,
+    					"per_page": 1
+    				}
+    			},
+    			"direct_from_developer": {
+    				"data": [],
+    				"meta": {
+    					"total_count": 0,
+    					"page_count": 0,
+    					"page": 0,
+    					"per_page": 1
+    				}
+    			}
+    		},
+    		"links": {
+    			"deep_link": "https:\/\/propertyfinder.page.link\/?link=https%3A%2F%2Fwww.propertyfinder.ae%2Fen%2Fsearch%3Fc%3D1%26q%3D%26l%3D%26t%3D%26kw%3D%26pf%3D%26pt%3D%26bf%3D%26bt%3D%26af%3D%26at%3D%26cs%3D%26ob%3Dnd%26snowplow_id%3Dpf-portal%26source%3Dmdot_banner&apn=ae.propertyfinder.propertyfinder&ibi=ae.propertyfinder.propertyfinder&isi=897540233"
+    		}
+    	},
+    	"included": [{
+    		"type": "property",
+    		"id": "7454718",
+    		"attributes": {
+    			"name": "Sea view | 5% Booking | 60% on completion by Bank",
+    			"area": "1,095 sqft",
+    			"size": 1095,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "elitere-1941365",
+    			"price_on_application": false,
+    			"default_price": 2047888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 1,
+    			"bathroom_name": "1",
+    			"bedroom_value": 2,
+    			"bedroom_name": "2",
+    			"location_tree_path": "Seven Palm, Palm Jumeirah, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 64.5,
+    			"rss": 40,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2928"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "179261"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "86"
+    				}, {
+    					"type": "location",
+    					"id": "9528"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454718.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%86%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85-7454718.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/500\/356\/MODE\/50223c\/7454718-847bco.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/338\/248\/MODE\/4a7e97\/7454718-847bco.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/486680\/7454718-847bco.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/260\/185\/MODE\/902049\/7454718-847bco.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/486680\/7454718-847bco.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Seven Palm, Palm Jumeirah",
+    			"price": 2047888,
+    			"price_text": "2,047,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971508492962",
+    						"link": "whatsapp:\/\/send?phone=+971508492962&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: elitere-1941365%0aType: Apartment%0aPrice: 2047888 AED%0aLocation: Seven Palm%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454718.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					}
+    				}
+    			},
+    			"images_count": 14
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454712",
+    		"attributes": {
+    			"name": "Garden view | 5% Booking | 60% on completion",
+    			"area": "1,132 sqft",
+    			"size": 1132,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "elitere-1941363",
+    			"price_on_application": false,
+    			"default_price": 1754888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 1,
+    			"bathroom_name": "1",
+    			"bedroom_value": 2,
+    			"bedroom_name": "2",
+    			"location_tree_path": "Seven Palm, Palm Jumeirah, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 64.5,
+    			"rss": 40,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2928"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "179261"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "86"
+    				}, {
+    					"type": "location",
+    					"id": "9528"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454712.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%86%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85-7454712.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/500\/356\/MODE\/213b54\/7454712-42a71o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/338\/248\/MODE\/2d88b5\/7454712-42a71o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/08ea56\/7454712-42a71o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/260\/185\/MODE\/6833b6\/7454712-42a71o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/08ea56\/7454712-42a71o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Seven Palm, Palm Jumeirah",
+    			"price": 1754888,
+    			"price_text": "1,754,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971508492962",
+    						"link": "whatsapp:\/\/send?phone=+971508492962&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: elitere-1941363%0aType: Apartment%0aPrice: 1754888 AED%0aLocation: Seven Palm%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454712.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					}
+    				}
+    			},
+    			"images_count": 14
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454710",
+    		"attributes": {
+    			"name": "HOT DEAL 3 BED FULL MARINA VIEW HIGH FLOOR",
+    			"area": "1,673 sqft",
+    			"size": 1673,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": true,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "think-1941367",
+    			"price_on_application": false,
+    			"default_price": 2619888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "premium",
+    			"listing_level": "premium",
+    			"bathroom_value": 4,
+    			"bathroom_name": "4",
+    			"bedroom_value": 3,
+    			"bedroom_name": "3",
+    			"location_tree_path": "Vida Residences Dubai Marina, Dubai Marina, Dubai",
+    			"quality_score": 100,
+    			"view_360": "",
+    			"rsp": 92,
+    			"rss": 65.5,
+    			"completion_status": "off_plan",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2308"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "156890"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "50"
+    				}, {
+    					"type": "location",
+    					"id": "8995"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-dubai-marina-vida-residences-dubai-marina-7454710.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D8%AF%D8%A8%D9%8A-%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7-%D9%81%D9%8A%D8%AF%D8%A7-%D8%B1%D9%8A%D8%B2%D9%8A%D8%AF%D9%86%D8%B3-%D8%AF%D8%A8%D9%8A-%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7-7454710.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/adf5d844138afba78c839b2da6f4a864\/500\/356\/MODE\/7c9379\/7454710-8bc76o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/adf5d844138afba78c839b2da6f4a864\/338\/248\/MODE\/187e2b\/7454710-8bc76o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/adf5d844138afba78c839b2da6f4a864\/668\/452\/MODE\/447ce9\/7454710-8bc76o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/adf5d844138afba78c839b2da6f4a864\/260\/185\/MODE\/a95caa\/7454710-8bc76o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/adf5d844138afba78c839b2da6f4a864\/668\/452\/MODE\/447ce9\/7454710-8bc76o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/3\/178\/98\/MODE\/bbcc1f\/2308-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Vida Residences Dubai Marina, Dubai Marina",
+    			"price": 2619888,
+    			"price_text": "2,619,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971528667828",
+    						"link": "tel:+971528667828",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971528667828",
+    						"link": "tel:+971528667828",
+    						"is_did": true
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971555519767",
+    						"link": "sms:+971555519767"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971528667828",
+    						"link": "tel:+971528667828",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971555519767",
+    						"link": "sms:+971555519767"
+    					}
+    				}
+    			},
+    			"images_count": 10
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454708",
+    		"attributes": {
+    			"name": "EXCLUSIVE 2 BED FULL BURJ KHALIFA VIEW \/VACANT",
+    			"area": "1,347 sqft",
+    			"size": 1347,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "CWB-S-12864",
+    			"price_on_application": false,
+    			"default_price": 1850000,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 3,
+    			"bathroom_name": "3",
+    			"bedroom_value": 2,
+    			"bedroom_name": "2",
+    			"location_tree_path": "Zaafaran 3, Zaafaran, Old Town, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 67,
+    			"rss": 42.5,
+    			"completion_status": "completed",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "58"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "135237"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "84"
+    				}, {
+    					"type": "location",
+    					"id": "1180"
+    				}, {
+    					"type": "location",
+    					"id": "4201"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-old-town-zaafaran-zaafaran-3-7454708.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9-%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86-%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86-3-7454708.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/cd96c7b4f3098fabc8383e8ce2f66c7d\/500\/356\/MODE\/1eaf3a\/7454708-87392o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/cd96c7b4f3098fabc8383e8ce2f66c7d\/338\/248\/MODE\/0783fe\/7454708-87392o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/cd96c7b4f3098fabc8383e8ce2f66c7d\/668\/452\/MODE\/1f01a6\/7454708-87392o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/cd96c7b4f3098fabc8383e8ce2f66c7d\/260\/185\/MODE\/e53882\/7454708-87392o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/cd96c7b4f3098fabc8383e8ce2f66c7d\/668\/452\/MODE\/1f01a6\/7454708-87392o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/3\/178\/98\/MODE\/01cc8a\/58-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Zaafaran 3, Zaafaran",
+    			"price": 1850000,
+    			"price_text": "1,850,000 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525239615",
+    						"link": "tel:+971525239615",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525239615",
+    						"link": "tel:+971525239615",
+    						"is_did": true
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971554479726",
+    						"link": "sms:+971554479726"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525239615",
+    						"link": "tel:+971525239615",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971554479726",
+    						"link": "whatsapp:\/\/send?phone=+971554479726&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: CWB-S-12864%0aType: Apartment%0aPrice: 1850000 AED%0aLocation: Zaafaran 3%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-old-town-zaafaran-zaafaran-3-7454708.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971554479726",
+    						"link": "sms:+971554479726"
+    					}
+    				}
+    			},
+    			"images_count": 10
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454701",
+    		"attributes": {
+    			"name": "2 bedroom in City Towers for sale Open view",
+    			"area": "1,482 sqft",
+    			"size": 1482,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "2bed city tower",
+    			"price_on_application": false,
+    			"default_price": 330000,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 2,
+    			"bathroom_name": "2",
+    			"bedroom_value": 2,
+    			"bedroom_name": "2",
+    			"location_tree_path": "City Tower, Al Naemiyah, Ajman",
+    			"quality_score": 100,
+    			"view_360": "",
+    			"rsp": 88,
+    			"rss": 60.5,
+    			"completion_status": "completed",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2337"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "175676"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "5"
+    				}, {
+    					"type": "location",
+    					"id": "225"
+    				}, {
+    					"type": "location",
+    					"id": "8882"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-ajman-al-naemiyah-city-tower-7454701.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%B9%D8%AC%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D9%86%D8%B9%D9%8A%D9%85%D9%8A%D8%A9-%D8%B3%D9%8A%D8%AA%D9%8A-%D8%AA%D8%A7%D9%88%D8%B1-7454701.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/1584286778\/500\/356\/MODE\/247001\/7454701-f8259o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/1584286778\/338\/248\/MODE\/2ff44f\/7454701-f8259o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/1584286778\/668\/452\/MODE\/3b0388\/7454701-f8259o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/1584286778\/260\/185\/MODE\/c9f2b2\/7454701-f8259o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/1584286778\/668\/452\/MODE\/3b0388\/7454701-f8259o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/3\/178\/98\/MODE\/617c62\/2337-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in City Tower, Al Naemiyah",
+    			"price": 330000,
+    			"price_text": "330,000 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525258693",
+    						"link": "tel:+971525258693",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525258693",
+    						"link": "tel:+971525258693",
+    						"is_did": true
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971558278282",
+    						"link": "sms:+971558278282"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525258693",
+    						"link": "tel:+971525258693",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971558278282",
+    						"link": "whatsapp:\/\/send?phone=+971558278282&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: 2bed+city+tower%0aType: Apartment%0aPrice: 330000 AED%0aLocation: City Tower%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-ajman-al-naemiyah-city-tower-7454701.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971558278282",
+    						"link": "sms:+971558278282"
+    					}
+    				}
+    			},
+    			"images_count": 10
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454698",
+    		"attributes": {
+    			"name": "Rare Size Of 1 Bedroom With Inspiring Views",
+    			"area": "1,103 sqft",
+    			"size": 1103,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "amwaj-1941355",
+    			"price_on_application": false,
+    			"default_price": 2200000,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": true,
+    			"cts": false,
+    			"listing_level_label": "smart_ad",
+    			"listing_level": "standard",
+    			"bathroom_value": 2,
+    			"bathroom_name": "2",
+    			"bedroom_value": 1,
+    			"bedroom_name": "1",
+    			"location_tree_path": "Burj Khalifa, Burj Khalifa Area, Downtown Dubai, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 62.25,
+    			"rss": 37.75,
+    			"completion_status": "completed",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "3610"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "173630"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "41"
+    				}, {
+    					"type": "location",
+    					"id": "604"
+    				}, {
+    					"type": "location",
+    					"id": "2710"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-downtown-dubai-burj-khalifa-area-burj-khalifa-7454698.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D8%AF%D8%A8%D9%8A-%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A8%D8%B1%D8%AC-%D8%AE%D9%84%D9%8A%D9%81%D8%A9-%D8%A8%D8%B1%D8%AC-%D8%AE%D9%84%D9%8A%D9%81%D8%A9-7454698.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/136eadc91dd393fd1007c15a39f9a355\/500\/356\/MODE\/8e102d\/7454698-ee7e2o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/136eadc91dd393fd1007c15a39f9a355\/338\/248\/MODE\/b10773\/7454698-ee7e2o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/136eadc91dd393fd1007c15a39f9a355\/668\/452\/MODE\/469971\/7454698-ee7e2o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/136eadc91dd393fd1007c15a39f9a355\/260\/185\/MODE\/9cb394\/7454698-ee7e2o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/136eadc91dd393fd1007c15a39f9a355\/668\/452\/MODE\/469971\/7454698-ee7e2o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/c2c03b\/3610-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Burj Khalifa, Burj Khalifa Area",
+    			"price": 2200000,
+    			"price_text": "2,200,000 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525302926",
+    						"link": "tel:+971525302926",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525302926",
+    						"link": "tel:+971525302926",
+    						"is_did": true
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971556693165",
+    						"link": "sms:+971556693165"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525302926",
+    						"link": "tel:+971525302926",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971556693165",
+    						"link": "whatsapp:\/\/send?phone=+971556693165&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: amwaj-1941355%0aType: Apartment%0aPrice: 2200000 AED%0aLocation: Burj Khalifa%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-downtown-dubai-burj-khalifa-area-burj-khalifa-7454698.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971556693165",
+    						"link": "sms:+971556693165"
+    					}
+    				}
+    			},
+    			"images_count": 10
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454695",
+    		"attributes": {
+    			"name": "One bedroom in Marina Diamond for sell",
+    			"area": "799 sqft",
+    			"size": 799,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "virtualdoors-1937430",
+    			"price_on_application": false,
+    			"default_price": 620000,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 1,
+    			"bathroom_name": "1",
+    			"bedroom_value": 1,
+    			"bedroom_name": "1",
+    			"location_tree_path": "Marina Diamonds, Dubai Marina, Dubai",
+    			"quality_score": 75.75,
+    			"view_360": "",
+    			"rsp": 60.020000000000003,
+    			"rss": 35.530000000000001,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "3271"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "172449"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "50"
+    				}, {
+    					"type": "location",
+    					"id": "720"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-dubai-marina-marina-diamonds-7454695.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D8%AF%D8%A8%D9%8A-%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7-%D9%85%D8%A7%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7-7454695.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/3cbda1751999d52cf20a8200dc554761\/500\/356\/MODE\/2583f0\/7454695-1785do.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/3cbda1751999d52cf20a8200dc554761\/338\/248\/MODE\/6fe871\/7454695-1785do.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/3cbda1751999d52cf20a8200dc554761\/668\/452\/MODE\/bcaf52\/7454695-1785do.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/3cbda1751999d52cf20a8200dc554761\/260\/185\/MODE\/b7808b\/7454695-1785do.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/3cbda1751999d52cf20a8200dc554761\/668\/452\/MODE\/bcaf52\/7454695-1785do.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/7d453a\/3271-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Marina Diamonds, Dubai Marina",
+    			"price": 620000,
+    			"price_text": "620,000 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971553393513",
+    						"link": "tel:+971553393513",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971553393513",
+    						"link": "tel:+971553393513",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971553393513",
+    						"link": "sms:+971553393513"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971553393513",
+    						"link": "tel:+971553393513",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971553393513",
+    						"link": "sms:+971553393513"
+    					}
+    				}
+    			},
+    			"images_count": 10
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454690",
+    		"attributes": {
+    			"name": "Marina view | 5% Booking | 60% on completion",
+    			"area": "946 sqft",
+    			"size": 946,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "elitere-1941343",
+    			"price_on_application": false,
+    			"default_price": 1610888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 2,
+    			"bathroom_name": "2",
+    			"bedroom_value": 1,
+    			"bedroom_name": "1",
+    			"location_tree_path": "Seven Palm, Palm Jumeirah, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 64.5,
+    			"rss": 40,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2928"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "179261"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "86"
+    				}, {
+    					"type": "location",
+    					"id": "9528"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454690.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%86%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85-7454690.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/500\/356\/MODE\/04423d\/7454690-e45f4o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/338\/248\/MODE\/c73d47\/7454690-e45f4o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/04b113\/7454690-e45f4o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/260\/185\/MODE\/1616b9\/7454690-e45f4o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/04b113\/7454690-e45f4o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Seven Palm, Palm Jumeirah",
+    			"price": 1610888,
+    			"price_text": "1,610,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971508492962",
+    						"link": "whatsapp:\/\/send?phone=+971508492962&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: elitere-1941343%0aType: Apartment%0aPrice: 1610888 AED%0aLocation: Seven Palm%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454690.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					}
+    				}
+    			},
+    			"images_count": 14
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454687",
+    		"attributes": {
+    			"name": "Sea view | 5% Booking | 60% on completion by Bank",
+    			"area": "716,713 sqft",
+    			"size": 716713,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "elitere-1941342",
+    			"price_on_application": false,
+    			"default_price": 1271888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 2,
+    			"bathroom_name": "2",
+    			"bedroom_value": 1,
+    			"bedroom_name": "1",
+    			"location_tree_path": "Seven Palm, Palm Jumeirah, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 64.5,
+    			"rss": 40,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2928"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "179261"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "86"
+    				}, {
+    					"type": "location",
+    					"id": "9528"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454687.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%86%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85-7454687.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/500\/356\/MODE\/2e41bf\/7454687-26fa7o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/338\/248\/MODE\/8db845\/7454687-26fa7o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/e1ddab\/7454687-26fa7o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/260\/185\/MODE\/bcbf1c\/7454687-26fa7o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/e1ddab\/7454687-26fa7o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Seven Palm, Palm Jumeirah",
+    			"price": 1271888,
+    			"price_text": "1,271,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971508492962",
+    						"link": "whatsapp:\/\/send?phone=+971508492962&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: elitere-1941342%0aType: Apartment%0aPrice: 1271888 AED%0aLocation: Seven Palm%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454687.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					}
+    				}
+    			},
+    			"images_count": 14
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454685",
+    		"attributes": {
+    			"name": "Sea view | 5% Booking | 60% on completion by Bank",
+    			"area": "712 sqft",
+    			"size": 712,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "elitere-1941341",
+    			"price_on_application": false,
+    			"default_price": 1068888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 2,
+    			"bathroom_name": "2",
+    			"bedroom_value": 1,
+    			"bedroom_name": "1",
+    			"location_tree_path": "Seven Palm, Palm Jumeirah, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 64.5,
+    			"rss": 40,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2928"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "179261"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "86"
+    				}, {
+    					"type": "location",
+    					"id": "9528"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454685.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%86%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85-7454685.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/500\/356\/MODE\/a6d77a\/7454685-a0b65o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/338\/248\/MODE\/2b137c\/7454685-a0b65o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/156b68\/7454685-a0b65o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/260\/185\/MODE\/6f9b1b\/7454685-a0b65o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/156b68\/7454685-a0b65o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Seven Palm, Palm Jumeirah",
+    			"price": 1068888,
+    			"price_text": "1,068,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971508492962",
+    						"link": "whatsapp:\/\/send?phone=+971508492962&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: elitere-1941341%0aType: Apartment%0aPrice: 1068888 AED%0aLocation: Seven Palm%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454685.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					}
+    				}
+    			},
+    			"images_count": 14
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454684",
+    		"attributes": {
+    			"name": "Full Golf View |Close to Dubai Landmarks | JLT",
+    			"area": "411 sqft",
+    			"size": 411,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": true,
+    			"furnished": "YES",
+    			"reference": "N-realpoint-1941329",
+    			"price_on_application": false,
+    			"default_price": 375000,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "featured",
+    			"listing_level": "featured",
+    			"bathroom_value": 1,
+    			"bathroom_name": "1",
+    			"bedroom_value": 0,
+    			"bedroom_name": "studio",
+    			"location_tree_path": "Se7en City JLT, Jumeirah Lake Towers, Dubai",
+    			"quality_score": 100,
+    			"view_360": "",
+    			"rsp": 89.5,
+    			"rss": 63,
+    			"completion_status": "off_plan",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "3764"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "175084"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "71"
+    				}, {
+    					"type": "location",
+    					"id": "9926"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-jumeirah-lake-towers-se7en-city-jlt-7454684.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC-%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%86-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%81%D9%8A-%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC-%D8%A8%D8%AD%D9%8A%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-7454684.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/97820611b4be8d8ecf84cfb690f9b5c8\/500\/356\/MODE\/1a3792\/7454684-c369fo.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/97820611b4be8d8ecf84cfb690f9b5c8\/338\/248\/MODE\/d84d06\/7454684-c369fo.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/97820611b4be8d8ecf84cfb690f9b5c8\/668\/452\/MODE\/71377a\/7454684-c369fo.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/97820611b4be8d8ecf84cfb690f9b5c8\/260\/185\/MODE\/3b31d6\/7454684-c369fo.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/97820611b4be8d8ecf84cfb690f9b5c8\/668\/452\/MODE\/71377a\/7454684-c369fo.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/7a9392\/3764-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Se7en City JLT, Jumeirah Lake Towers",
+    			"price": 375000,
+    			"price_text": "375,000 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525198947",
+    						"link": "tel:+971525198947",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525198947",
+    						"link": "tel:+971525198947",
+    						"is_did": true
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971567502053",
+    						"link": "sms:+971567502053"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525198947",
+    						"link": "tel:+971525198947",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971507213559",
+    						"link": "whatsapp:\/\/send?phone=+971507213559&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: N-realpoint-1941329%0aType: Apartment%0aPrice: 375000 AED%0aLocation: Se7en City JLT%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-jumeirah-lake-towers-se7en-city-jlt-7454684.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971567502053",
+    						"link": "sms:+971567502053"
+    					}
+    				}
+    			},
+    			"images_count": 11
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454683",
+    		"attributes": {
+    			"name": "Garden view | 5% Booking | 60% on completion",
+    			"area": "637 sqft",
+    			"size": 637,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "elitere-1941337",
+    			"price_on_application": false,
+    			"default_price": 1053888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 2,
+    			"bathroom_name": "2",
+    			"bedroom_value": 1,
+    			"bedroom_name": "1",
+    			"location_tree_path": "Seven Palm, Palm Jumeirah, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 64.5,
+    			"rss": 40,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2928"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "179261"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "86"
+    				}, {
+    					"type": "location",
+    					"id": "9528"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454683.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%86%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85-7454683.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/500\/356\/MODE\/acc5a9\/7454683-2f9f3o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/338\/248\/MODE\/8a1a6d\/7454683-2f9f3o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/920f46\/7454683-2f9f3o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/260\/185\/MODE\/f62bf3\/7454683-2f9f3o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/920f46\/7454683-2f9f3o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Seven Palm, Palm Jumeirah",
+    			"price": 1053888,
+    			"price_text": "1,053,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971508492962",
+    						"link": "whatsapp:\/\/send?phone=+971508492962&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: elitere-1941337%0aType: Apartment%0aPrice: 1053888 AED%0aLocation: Seven Palm%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454683.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					}
+    				}
+    			},
+    			"images_count": 14
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454681",
+    		"attributes": {
+    			"name": "1 month Free, 2BRs+Maid Room Ensuite Bath",
+    			"area": "1,250 sqft",
+    			"size": 1250,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "nexhomes-1906394",
+    			"price_on_application": false,
+    			"default_price": 700000,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": true,
+    			"cts": false,
+    			"listing_level_label": "smart_ad",
+    			"listing_level": "standard",
+    			"bathroom_value": 3,
+    			"bathroom_name": "3",
+    			"bedroom_value": 2,
+    			"bedroom_name": "2",
+    			"location_tree_path": "Afnan 5, Midtown, Dubai Production City (IMPZ), Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 63,
+    			"rss": 38.5,
+    			"completion_status": "completed",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "991"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "172953"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "62"
+    				}, {
+    					"type": "location",
+    					"id": "883"
+    				}, {
+    					"type": "location",
+    					"id": "3579"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-dubai-production-city-impz-midtown-afnan-5-7454681.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%AF%D8%A8%D9%8A-%D9%84%D9%84%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%8A-%D8%A7%D9%85-%D8%A8%D9%8A-%D8%B2%D8%AF-%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A3%D9%81%D9%86%D8%A7%D9%86-5-7454681.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/749604bf17fd29b4e22bc92bc01741f5\/500\/356\/MODE\/301914\/7454681-82fbco.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/749604bf17fd29b4e22bc92bc01741f5\/338\/248\/MODE\/4209c8\/7454681-82fbco.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/749604bf17fd29b4e22bc92bc01741f5\/668\/452\/MODE\/47f018\/7454681-82fbco.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/749604bf17fd29b4e22bc92bc01741f5\/260\/185\/MODE\/457e01\/7454681-82fbco.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/749604bf17fd29b4e22bc92bc01741f5\/668\/452\/MODE\/47f018\/7454681-82fbco.jpg",
+    			"image_broker": "\/dist\/common\/assets\/9ed1ab8bcd.broker-tile-placeholder.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Afnan 5, Midtown",
+    			"price": 700000,
+    			"price_text": "700,000 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971528385072",
+    						"link": "tel:+971528385072",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971528385072",
+    						"link": "tel:+971528385072",
+    						"is_did": true
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971527589599",
+    						"link": "sms:+971527589599"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971528385072",
+    						"link": "tel:+971528385072",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971527589599",
+    						"link": "sms:+971527589599"
+    					}
+    				}
+    			},
+    			"images_count": 16
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454679",
+    		"attributes": {
+    			"name": "Only 5% Booking|Last Plot in Jumeirah Lake Towers",
+    			"area": "775 sqft",
+    			"size": 775,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "YES",
+    			"reference": "N-realpoint-1941338",
+    			"price_on_application": false,
+    			"default_price": 798888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 2,
+    			"bathroom_name": "2",
+    			"bedroom_value": 1,
+    			"bedroom_name": "1",
+    			"location_tree_path": "Se7en City JLT, Jumeirah Lake Towers, Dubai",
+    			"quality_score": 100,
+    			"view_360": "",
+    			"rsp": 87.5,
+    			"rss": 63,
+    			"completion_status": "off_plan",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "3764"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "175084"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "71"
+    				}, {
+    					"type": "location",
+    					"id": "9926"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-jumeirah-lake-towers-se7en-city-jlt-7454679.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC-%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%86-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%81%D9%8A-%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC-%D8%A8%D8%AD%D9%8A%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-7454679.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/d50523e375deec06a2619244a7f990a7\/500\/356\/MODE\/1ffadb\/7454679-01a0co.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/d50523e375deec06a2619244a7f990a7\/338\/248\/MODE\/a37b3a\/7454679-01a0co.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/d50523e375deec06a2619244a7f990a7\/668\/452\/MODE\/86822d\/7454679-01a0co.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/d50523e375deec06a2619244a7f990a7\/260\/185\/MODE\/8310b5\/7454679-01a0co.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/d50523e375deec06a2619244a7f990a7\/668\/452\/MODE\/86822d\/7454679-01a0co.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/7a9392\/3764-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Se7en City JLT, Jumeirah Lake Towers",
+    			"price": 798888,
+    			"price_text": "798,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525198947",
+    						"link": "tel:+971525198947",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525198947",
+    						"link": "tel:+971525198947",
+    						"is_did": true
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971567502053",
+    						"link": "sms:+971567502053"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525198947",
+    						"link": "tel:+971525198947",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971507213559",
+    						"link": "whatsapp:\/\/send?phone=+971507213559&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: N-realpoint-1941338%0aType: Apartment%0aPrice: 798888 AED%0aLocation: Se7en City JLT%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-jumeirah-lake-towers-se7en-city-jlt-7454679.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971567502053",
+    						"link": "sms:+971567502053"
+    					}
+    				}
+    			},
+    			"images_count": 12
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454672",
+    		"attributes": {
+    			"name": "Furnished Studio | 1% Monthly | 5% Booking @ JLT",
+    			"area": "398 sqft",
+    			"size": 398,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "YES",
+    			"reference": "elitere-1941315",
+    			"price_on_application": false,
+    			"default_price": 374000,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 1,
+    			"bathroom_name": "1",
+    			"bedroom_value": 0,
+    			"bedroom_name": "studio",
+    			"location_tree_path": "Se7en City JLT, Jumeirah Lake Towers, Dubai",
+    			"quality_score": 100,
+    			"view_360": "",
+    			"rsp": 89.5,
+    			"rss": 62,
+    			"completion_status": "off_plan",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2928"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "179261"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "71"
+    				}, {
+    					"type": "location",
+    					"id": "9926"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-jumeirah-lake-towers-se7en-city-jlt-7454672.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC-%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%86-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%81%D9%8A-%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC-%D8%A8%D8%AD%D9%8A%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-7454672.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/e133d011997b94e3acaa80ffcc71eefb\/500\/356\/MODE\/c54b03\/7454672-54602o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/e133d011997b94e3acaa80ffcc71eefb\/338\/248\/MODE\/b4c501\/7454672-54602o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/e133d011997b94e3acaa80ffcc71eefb\/668\/452\/MODE\/be2a8d\/7454672-54602o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/e133d011997b94e3acaa80ffcc71eefb\/260\/185\/MODE\/cf3dd5\/7454672-54602o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/e133d011997b94e3acaa80ffcc71eefb\/668\/452\/MODE\/be2a8d\/7454672-54602o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Se7en City JLT, Jumeirah Lake Towers",
+    			"price": 374000,
+    			"price_text": "374,000 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971508492962",
+    						"link": "whatsapp:\/\/send?phone=+971508492962&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: elitere-1941315%0aType: Apartment%0aPrice: 374000 AED%0aLocation: Se7en City JLT%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-jumeirah-lake-towers-se7en-city-jlt-7454672.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					}
+    				}
+    			},
+    			"images_count": 13
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454669",
+    		"attributes": {
+    			"name": "Garden view | 5% Booking | 60% on completion",
+    			"area": "353 sqft",
+    			"size": 353,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "elitere-1941317",
+    			"price_on_application": false,
+    			"default_price": 697888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 1,
+    			"bathroom_name": "1",
+    			"bedroom_value": 0,
+    			"bedroom_name": "studio",
+    			"location_tree_path": "Seven Palm, Palm Jumeirah, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 64.5,
+    			"rss": 40,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2928"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "179261"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "86"
+    				}, {
+    					"type": "location",
+    					"id": "9528"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454669.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%86%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85-7454669.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/500\/356\/MODE\/16ad2d\/7454669-c093bo.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/338\/248\/MODE\/bb0d15\/7454669-c093bo.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/7bfc18\/7454669-c093bo.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/260\/185\/MODE\/1ac67c\/7454669-c093bo.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/7bfc18\/7454669-c093bo.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Seven Palm, Palm Jumeirah",
+    			"price": 697888,
+    			"price_text": "697,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971508492962",
+    						"link": "whatsapp:\/\/send?phone=+971508492962&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: elitere-1941317%0aType: Apartment%0aPrice: 697888 AED%0aLocation: Seven Palm%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454669.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					}
+    				}
+    			},
+    			"images_count": 15
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454663",
+    		"attributes": {
+    			"name": "Boulevard view | 5% Booking | 60% on completion",
+    			"area": "314 sqft",
+    			"size": 314,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "elitere-1941321",
+    			"price_on_application": false,
+    			"default_price": 697888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 1,
+    			"bathroom_name": "1",
+    			"bedroom_value": 0,
+    			"bedroom_name": "studio",
+    			"location_tree_path": "Seven Palm, Palm Jumeirah, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 64.5,
+    			"rss": 40,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2928"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "179261"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "86"
+    				}, {
+    					"type": "location",
+    					"id": "9528"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454663.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%86%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85-7454663.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/500\/356\/MODE\/9694d0\/7454663-2d649o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/338\/248\/MODE\/1d7178\/7454663-2d649o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/af7ac5\/7454663-2d649o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/260\/185\/MODE\/cd5cdd\/7454663-2d649o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/af7ac5\/7454663-2d649o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Seven Palm, Palm Jumeirah",
+    			"price": 697888,
+    			"price_text": "697,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971508492962",
+    						"link": "whatsapp:\/\/send?phone=+971508492962&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: elitere-1941321%0aType: Apartment%0aPrice: 697888 AED%0aLocation: Seven Palm%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454663.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					}
+    				}
+    			},
+    			"images_count": 15
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454662",
+    		"attributes": {
+    			"name": "Garden view | 5% Booking | 60% on completion",
+    			"area": "387 sqft",
+    			"size": 387,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "elitere-1941319",
+    			"price_on_application": false,
+    			"default_price": 691888,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 1,
+    			"bathroom_name": "1",
+    			"bedroom_value": 0,
+    			"bedroom_name": "studio",
+    			"location_tree_path": "Seven Palm, Palm Jumeirah, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 64.5,
+    			"rss": 40,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "2928"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "179261"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "86"
+    				}, {
+    					"type": "location",
+    					"id": "9528"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454662.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%86%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%85-7454662.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/500\/356\/MODE\/8c5dd4\/7454662-1591eo.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/338\/248\/MODE\/f331f8\/7454662-1591eo.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/3fb9e0\/7454662-1591eo.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/260\/185\/MODE\/017a29\/7454662-1591eo.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/0e09373d7d4d8795354c8ab3837dc276\/668\/452\/MODE\/3fb9e0\/7454662-1591eo.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Seven Palm, Palm Jumeirah",
+    			"price": 691888,
+    			"price_text": "691,888 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971508492962",
+    						"link": "tel:+971508492962",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971508492962",
+    						"link": "whatsapp:\/\/send?phone=+971508492962&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: elitere-1941319%0aType: Apartment%0aPrice: 691888 AED%0aLocation: Seven Palm%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-palm-jumeirah-seven-palm-7454662.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971508492962",
+    						"link": "sms:+971508492962"
+    					}
+    				}
+    			},
+    			"images_count": 15
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454661",
+    		"attributes": {
+    			"name": "Super Large 2 Bedroom I Burj Khalifa View",
+    			"area": "1,487 sqft",
+    			"size": 1487,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "axc-1941328",
+    			"price_on_application": false,
+    			"default_price": 2000000,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 3,
+    			"bathroom_name": "3",
+    			"bedroom_value": 2,
+    			"bedroom_name": "2",
+    			"location_tree_path": "Burj Views C, Burj Views, Downtown Dubai, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 65.25,
+    			"rss": 40.75,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "3427"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "170582"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "41"
+    				}, {
+    					"type": "location",
+    					"id": "607"
+    				}, {
+    					"type": "location",
+    					"id": "2727"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-downtown-dubai-burj-views-burj-views-c-7454661.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D8%AF%D8%A8%D9%8A-%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A8%D8%B1%D8%AC-%D9%81%D9%8A%D9%88%D8%B2-c-%D8%A8%D8%B1%D8%AC-%D9%81%D9%8A%D9%88%D8%B2-7454661.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/0634b93f2c29391c28d45af95eed38d3\/500\/356\/MODE\/a7d3d4\/7454661-c01f3o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/0634b93f2c29391c28d45af95eed38d3\/338\/248\/MODE\/bc6d86\/7454661-c01f3o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/0634b93f2c29391c28d45af95eed38d3\/668\/452\/MODE\/3be565\/7454661-c01f3o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/0634b93f2c29391c28d45af95eed38d3\/260\/185\/MODE\/50070a\/7454661-c01f3o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/0634b93f2c29391c28d45af95eed38d3\/668\/452\/MODE\/3be565\/7454661-c01f3o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/17f3f0\/3427-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Burj Views C, Burj Views",
+    			"price": 2000000,
+    			"price_text": "2,000,000 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971555838337",
+    						"link": "tel:+971555838337",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971555838337",
+    						"link": "tel:+971555838337",
+    						"is_did": true
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971526744487",
+    						"link": "sms:+971526744487"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971555838337",
+    						"link": "tel:+971555838337",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971526744487",
+    						"link": "whatsapp:\/\/send?phone=+971526744487&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: axc-1941328%0aType: Apartment%0aPrice: 2000000 AED%0aLocation: Burj Views C%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-downtown-dubai-burj-views-burj-views-c-7454661.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971526744487",
+    						"link": "sms:+971526744487"
+    					}
+    				}
+    			},
+    			"images_count": 19
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454660",
+    		"attributes": {
+    			"name": "Vacant on Transfer | Negotiable | Large Plot",
+    			"area": "1,794 sqft",
+    			"size": 1794,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "PRD-S-7119",
+    			"price_on_application": false,
+    			"default_price": 1449999,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "35",
+    			"type_identifier": "villa",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 3,
+    			"bathroom_name": "3",
+    			"bedroom_value": 2,
+    			"bedroom_name": "2",
+    			"location_tree_path": "Springs 6, The Springs, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 66.5,
+    			"rss": 42,
+    			"completion_status": "completed",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "336"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "172455"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "35"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "89"
+    				}, {
+    					"type": "location",
+    					"id": "4465"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/villa-for-sale-dubai-the-springs-springs-6-7454660.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D9%81%D9%8A%D9%84%D8%A7-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D8%A7%D9%84%D9%8A%D9%86%D8%A7%D8%A8%D9%8A%D8%B9-%D8%A7%D9%84%D9%8A%D9%86%D8%A7%D8%A8%D9%8A%D8%B9-6-7454660.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/d450fd5f7e390755aef05e61a5f45868\/500\/356\/MODE\/2bf570\/7454660-6b9f1o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/d450fd5f7e390755aef05e61a5f45868\/338\/248\/MODE\/c515f9\/7454660-6b9f1o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/d450fd5f7e390755aef05e61a5f45868\/668\/452\/MODE\/351102\/7454660-6b9f1o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/d450fd5f7e390755aef05e61a5f45868\/260\/185\/MODE\/9eb126\/7454660-6b9f1o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/d450fd5f7e390755aef05e61a5f45868\/668\/452\/MODE\/351102\/7454660-6b9f1o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/3\/178\/98\/MODE\/028932\/336-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Villa for Sale in Springs 6, The Springs",
+    			"price": 1449999,
+    			"price_text": "1,449,999 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971582157404",
+    						"link": "tel:+971582157404",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971582157404",
+    						"link": "tel:+971582157404",
+    						"is_did": true
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971528544247",
+    						"link": "sms:+971528544247"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971582157404",
+    						"link": "tel:+971582157404",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971528544247",
+    						"link": "whatsapp:\/\/send?phone=+971528544247&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: PRD-S-7119%0aType: Villa%0aPrice: 1449999 AED%0aLocation: Springs 6%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/villa-for-sale-dubai-the-springs-springs-6-7454660.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971528544247",
+    						"link": "sms:+971528544247"
+    					}
+    				}
+    			},
+    			"images_count": 11
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454658",
+    		"attributes": {
+    			"name": "Amazing Offer!! I 1 Bedroom I Stadium Point",
+    			"area": "1,007 sqft",
+    			"size": 1007,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "idealhomes-1941324",
+    			"price_on_application": false,
+    			"default_price": 450000,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 2,
+    			"bathroom_name": "2",
+    			"bedroom_value": 1,
+    			"bedroom_name": "1",
+    			"location_tree_path": "Stadium Point, Dubai Sports City, Dubai",
+    			"quality_score": 80,
+    			"view_360": "",
+    			"rsp": 63,
+    			"rss": 38.5,
+    			"completion_status": null,
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "838"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "157279"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "55"
+    				}, {
+    					"type": "location",
+    					"id": "3345"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-dubai-sports-city-stadium-point-7454658.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%AF%D8%A8%D9%8A-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9-%D8%B3%D8%AA%D8%A7%D8%AF%D9%8A%D9%88%D9%85-%D8%A8%D9%88%D9%8A%D9%86%D8%AA-7454658.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/2bac9782980769d071a225b3cba0448b\/500\/356\/MODE\/5318b4\/7454658-3661fo.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/2bac9782980769d071a225b3cba0448b\/338\/248\/MODE\/6ff9d6\/7454658-3661fo.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/2bac9782980769d071a225b3cba0448b\/668\/452\/MODE\/3d7c84\/7454658-3661fo.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/2bac9782980769d071a225b3cba0448b\/260\/185\/MODE\/f063d0\/7454658-3661fo.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/2bac9782980769d071a225b3cba0448b\/668\/452\/MODE\/3d7c84\/7454658-3661fo.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/fc7034\/838-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Stadium Point, Dubai Sports City",
+    			"price": 450000,
+    			"price_text": "450,000 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971505039339",
+    						"link": "tel:+971505039339",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971505039339",
+    						"link": "tel:+971505039339",
+    						"is_did": false
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971505039339",
+    						"link": "sms:+971505039339"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971505039339",
+    						"link": "tel:+971505039339",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971505039339",
+    						"link": "whatsapp:\/\/send?phone=+971505039339&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: idealhomes-1941324%0aType: Apartment%0aPrice: 450000 AED%0aLocation: Stadium Point%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-dubai-sports-city-stadium-point-7454658.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971505039339",
+    						"link": "sms:+971505039339"
+    					}
+    				}
+    			},
+    			"images_count": 10
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454656",
+    		"attributes": {
+    			"name": "Easy Payment Plan | Park View 2 BR . + Balcony",
+    			"area": "1,109 sqft",
+    			"size": 1109,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "AP115794",
+    			"price_on_application": false,
+    			"default_price": 1332600,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 2,
+    			"bathroom_name": "2",
+    			"bedroom_value": 2,
+    			"bedroom_name": "2",
+    			"location_tree_path": "Shams Abu Dhabi, Al Reem Island, Abu Dhabi",
+    			"quality_score": 75.75,
+    			"view_360": "",
+    			"rsp": 62.520000000000003,
+    			"rss": 62.520000000000003,
+    			"completion_status": "completed",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "400"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "153482"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "6"
+    				}, {
+    					"type": "location",
+    					"id": "279"
+    				}, {
+    					"type": "location",
+    					"id": "1874"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-abu-dhabi-al-reem-island-shams-abu-dhabi-7454656.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D9%85-%D8%B4%D9%85%D8%B3-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-7454656.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/500\/356\/MODE\/ea2d0c\/7454656-dda39o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/338\/248\/MODE\/e7debd\/7454656-dda39o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/668\/452\/MODE\/d23618\/7454656-dda39o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/260\/185\/MODE\/cf7913\/7454656-dda39o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/668\/452\/MODE\/d23618\/7454656-dda39o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/8\/178\/98\/MODE\/bc8bc8\/400-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Shams Abu Dhabi, Al Reem Island",
+    			"price": 1332600,
+    			"price_text": "1,332,600 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+97126592300",
+    						"link": "tel:+97126592300",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+97126592300",
+    						"link": "tel:+97126592300",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+97126592300",
+    						"link": "tel:+97126592300",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				}
+    			},
+    			"images_count": 9
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454655",
+    		"attributes": {
+    			"name": "Easy Payment Plan, Sea View 2 BR Apartment",
+    			"area": "1,084 sqft",
+    			"size": 1084,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "AP115795",
+    			"price_on_application": false,
+    			"default_price": 1362500,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 1,
+    			"bathroom_name": "1",
+    			"bedroom_value": 2,
+    			"bedroom_name": "2",
+    			"location_tree_path": "Shams Abu Dhabi, Al Reem Island, Abu Dhabi",
+    			"quality_score": 75.75,
+    			"view_360": "",
+    			"rsp": 62.520000000000003,
+    			"rss": 60.770000000000003,
+    			"completion_status": "completed",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "400"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "153482"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "6"
+    				}, {
+    					"type": "location",
+    					"id": "279"
+    				}, {
+    					"type": "location",
+    					"id": "1874"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-abu-dhabi-al-reem-island-shams-abu-dhabi-7454655.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D9%85-%D8%B4%D9%85%D8%B3-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-7454655.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/500\/356\/MODE\/4db447\/7454655-dda39o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/338\/248\/MODE\/01452f\/7454655-dda39o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/668\/452\/MODE\/6c534e\/7454655-dda39o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/260\/185\/MODE\/be6669\/7454655-dda39o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/668\/452\/MODE\/6c534e\/7454655-dda39o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/8\/178\/98\/MODE\/bc8bc8\/400-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Shams Abu Dhabi, Al Reem Island",
+    			"price": 1362500,
+    			"price_text": "1,362,500 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+97126592300",
+    						"link": "tel:+97126592300",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+97126592300",
+    						"link": "tel:+97126592300",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+97126592300",
+    						"link": "tel:+97126592300",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				}
+    			},
+    			"images_count": 9
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454654",
+    		"attributes": {
+    			"name": "Easy Payment Plan | Amazing  park view 3 BR.",
+    			"area": "1,538 sqft",
+    			"size": 1538,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "NO",
+    			"reference": "AP115796",
+    			"price_on_application": false,
+    			"default_price": 1931800,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": null,
+    			"bathroom_name": "",
+    			"bedroom_value": 3,
+    			"bedroom_name": "3",
+    			"location_tree_path": "Shams Abu Dhabi, Al Reem Island, Abu Dhabi",
+    			"quality_score": 75.75,
+    			"view_360": "",
+    			"rsp": 62.520000000000003,
+    			"rss": 61.060000000000002,
+    			"completion_status": "completed",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "400"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "153482"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "6"
+    				}, {
+    					"type": "location",
+    					"id": "279"
+    				}, {
+    					"type": "location",
+    					"id": "1874"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-abu-dhabi-al-reem-island-shams-abu-dhabi-7454654.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D9%85-%D8%B4%D9%85%D8%B3-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-7454654.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/500\/356\/MODE\/3ce25a\/7454654-dda39o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/338\/248\/MODE\/ed5ed4\/7454654-dda39o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/668\/452\/MODE\/52f243\/7454654-dda39o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/260\/185\/MODE\/d190ff\/7454654-dda39o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/bec1de66f52d7625603198aaaed4e1e7\/668\/452\/MODE\/52f243\/7454654-dda39o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/8\/178\/98\/MODE\/bc8bc8\/400-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Shams Abu Dhabi, Al Reem Island",
+    			"price": 1931800,
+    			"price_text": "1,931,800 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+97126592300",
+    						"link": "tel:+97126592300",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+97126592300",
+    						"link": "tel:+97126592300",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+97126592300",
+    						"link": "tel:+97126592300",
+    						"is_did": false
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				}
+    			},
+    			"images_count": 9
+    		}
+    	}, {
+    		"type": "property",
+    		"id": "7454653",
+    		"attributes": {
+    			"name": "Fully Furnished  |  Cheapest Price Per sq.ft- JLT",
+    			"area": "411 sqft",
+    			"size": 411,
+    			"size_unit": "sqft",
+    			"price_period_label": "AED",
+    			"price_period_identifier": "sell",
+    			"offering_type": "Residential for Sale",
+    			"offering_type_id": "1",
+    			"premium": false,
+    			"verified": false,
+    			"featured": false,
+    			"furnished": "YES",
+    			"reference": "N-realpoint-1941312",
+    			"price_on_application": false,
+    			"default_price": 375000,
+    			"category_id": "1",
+    			"category_identifier": "buy",
+    			"type_id": "1",
+    			"type_identifier": "apartment",
+    			"smart_ad": false,
+    			"cts": false,
+    			"listing_level_label": "standard",
+    			"listing_level": "standard",
+    			"bathroom_value": 1,
+    			"bathroom_name": "1",
+    			"bedroom_value": 0,
+    			"bedroom_name": "studio",
+    			"location_tree_path": "Se7en City JLT, Jumeirah Lake Towers, Dubai",
+    			"quality_score": 100,
+    			"view_360": "",
+    			"rsp": 90.5,
+    			"rss": 63,
+    			"completion_status": "off_plan",
+    			"utilities_price_type": "not_selected",
+    			"exclusive": false
+    		},
+    		"relationships": {
+    			"broker": {
+    				"data": {
+    					"type": "broker",
+    					"id": "3764"
+    				}
+    			},
+    			"agent": {
+    				"data": {
+    					"type": "agent",
+    					"id": "175084"
+    				}
+    			},
+    			"property_type": {
+    				"data": {
+    					"type": "property_type",
+    					"id": "1"
+    				}
+    			},
+    			"location_tree": {
+    				"data": [{
+    					"type": "location",
+    					"id": "1"
+    				}, {
+    					"type": "location",
+    					"id": "71"
+    				}, {
+    					"type": "location",
+    					"id": "9926"
+    				}]
+    			}
+    		},
+    		"links": {
+    			"self": "https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-jumeirah-lake-towers-se7en-city-jlt-7454653.html",
+    			"self_alternate": "https:\/\/www.propertyfinder.ae\/ar\/%D9%84%D9%84%D8%A8%D9%8A%D8%B9\/%D8%B4%D9%82%D8%A9-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D8%AF%D8%A8%D9%8A-%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC-%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-%D8%B3%D9%8A%D9%81%D9%86-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%81%D9%8A-%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC-%D8%A8%D8%AD%D9%8A%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B1%D8%A7-7454653.html",
+    			"image_property": "https:\/\/www.propertyfinder.ae\/property\/9641cf1d6eddd5b363313ecef553bb4b\/500\/356\/MODE\/36c28c\/7454653-77957o.jpg",
+    			"image_property_homepage": "https:\/\/www.propertyfinder.ae\/property\/9641cf1d6eddd5b363313ecef553bb4b\/338\/248\/MODE\/0ab87f\/7454653-77957o.jpg",
+    			"image_property_cts": "https:\/\/www.propertyfinder.ae\/property\/9641cf1d6eddd5b363313ecef553bb4b\/668\/452\/MODE\/ffb173\/7454653-77957o.jpg",
+    			"image_property_small": "https:\/\/www.propertyfinder.ae\/property\/9641cf1d6eddd5b363313ecef553bb4b\/260\/185\/MODE\/7b80fe\/7454653-77957o.jpg",
+    			"image_property_medium": "https:\/\/www.propertyfinder.ae\/property\/9641cf1d6eddd5b363313ecef553bb4b\/668\/452\/MODE\/ffb173\/7454653-77957o.jpg",
+    			"image_broker": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/7a9392\/3764-logo.jpg",
+    			"image_property_floor_plan": null
+    		},
+    		"meta": {
+    			"subtitle": "Apartment for Sale in Se7en City JLT, Jumeirah Lake Towers",
+    			"price": 375000,
+    			"price_text": "375,000 AED",
+    			"contact_options": {
+    				"list": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525198947",
+    						"link": "tel:+971525198947",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"details": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525198947",
+    						"link": "tel:+971525198947",
+    						"is_did": true
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971567502053",
+    						"link": "sms:+971567502053"
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					}
+    				},
+    				"app": {
+    					"phone": {
+    						"type": "phone",
+    						"value": "+971525198947",
+    						"link": "tel:+971525198947",
+    						"is_did": true
+    					},
+    					"email": {
+    						"type": "email",
+    						"value": "dummy@propertyfinder.ae",
+    						"link": "mailto:dummy@propertyfinder.ae"
+    					},
+    					"whatsapp": {
+    						"type": "whatsapp",
+    						"value": "+971507213559",
+    						"link": "whatsapp:\/\/send?phone=+971507213559&text=Hello,%0aI would like to get more information about this property you posted on propertyfinder.ae:%0a%0aReference: N-realpoint-1941312%0aType: Apartment%0aPrice: 375000 AED%0aLocation: Se7en City JLT%0a%0aLink: https:\/\/www.propertyfinder.ae\/en\/buy\/apartment-for-sale-dubai-jumeirah-lake-towers-se7en-city-jlt-7454653.html"
+    					},
+    					"sms": {
+    						"type": "sms",
+    						"value": "+971567502053",
+    						"link": "sms:+971567502053"
+    					}
+    				}
+    			},
+    			"images_count": 10
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "2928",
+    		"attributes": {
+    			"name": "Elite Estates Real Estate Broker",
+    			"phone": "+971508492962",
+    			"license_label": "RERA",
+    			"license_number": "12312",
+    			"location_name": "Dubai",
+    			"agents": 1
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/elite-estates-real-estate-broker-2928",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/5\/178\/98\/MODE\/328418\/2928-logo.jpg",
+    			"logo_desktop": "\/dist\/common\/assets\/9ed1ab8bcd.broker-tile-placeholder.jpg"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "2308",
+    		"attributes": {
+    			"name": "Think Properties",
+    			"phone": "+971528889369",
+    			"license_label": "RERA",
+    			"license_number": "17224",
+    			"location_name": "Dubai",
+    			"agents": 5
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/think-properties-2308",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/3\/178\/98\/MODE\/bbcc1f\/2308-logo.jpg",
+    			"logo_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_broker\/logo\/d41bd42c260444f914eba2e6ab46ffe899e1d7f5\/desktop"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "58",
+    		"attributes": {
+    			"name": "Coldwell Banker",
+    			"phone": "+97143825000",
+    			"license_label": "RERA",
+    			"license_number": "1201",
+    			"location_name": "Dubai",
+    			"agents": 32
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/coldwell-banker-58",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/3\/178\/98\/MODE\/01cc8a\/58-logo.jpg",
+    			"logo_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_broker\/logo\/bb1621c0115d6e8dd9bc691a67e3f869def2ca8d\/desktop"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "2337",
+    		"attributes": {
+    			"name": "Mohsin Real Estate LLC",
+    			"phone": "+971558278282",
+    			"license_label": "License",
+    			"license_number": "82604",
+    			"location_name": "Ajman",
+    			"agents": 1
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/mohsin-real-estate-llc-2337",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/3\/178\/98\/MODE\/617c62\/2337-logo.jpg",
+    			"logo_desktop": "\/dist\/common\/assets\/9ed1ab8bcd.broker-tile-placeholder.jpg"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "3610",
+    		"attributes": {
+    			"name": "Amwaj Properties",
+    			"phone": "+97143398551",
+    			"license_label": "RERA",
+    			"license_number": "",
+    			"location_name": "Dubai",
+    			"agents": 0
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/amwaj-properties-3610",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/c2c03b\/3610-logo.jpg",
+    			"logo_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_broker\/logo\/f22bf5d46a1d175fc2535f8b4718293bc619d601\/desktop"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "3271",
+    		"attributes": {
+    			"name": "Virtual Doors Real Estate ",
+    			"phone": "+97143231248",
+    			"license_label": "RERA",
+    			"license_number": "",
+    			"location_name": "Dubai",
+    			"agents": 0
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/virtual-doors-real-estate-3271",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/7d453a\/3271-logo.jpg",
+    			"logo_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_broker\/logo\/f2259437d6f9b94b536e193ddfaf3e64ec0e60e7\/desktop"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "3764",
+    		"attributes": {
+    			"name": "Realpoint Real Estate",
+    			"phone": "+971507213559",
+    			"license_label": "RERA",
+    			"license_number": "16966",
+    			"location_name": "Dubai",
+    			"agents": 1
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/realpoint-real-estate-3764",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/7a9392\/3764-logo.jpg",
+    			"logo_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_broker\/logo\/0906e305b679228858b2177350de14055373cf7d\/desktop"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "991",
+    		"attributes": {
+    			"name": "Ardin Realty Brokers",
+    			"phone": "+971556840557",
+    			"license_label": "RERA",
+    			"license_number": "2623",
+    			"location_name": "Dubai",
+    			"agents": 0
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/ardin-realty-brokers-991",
+    			"logo_178_98": "\/dist\/common\/assets\/9ed1ab8bcd.broker-tile-placeholder.jpg",
+    			"logo_desktop": "\/dist\/common\/assets\/9ed1ab8bcd.broker-tile-placeholder.jpg"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "3427",
+    		"attributes": {
+    			"name": "Ax Capital Real Estate",
+    			"phone": "+971561123456",
+    			"license_label": "RERA",
+    			"license_number": "21635",
+    			"location_name": "Dubai",
+    			"agents": 10
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/ax-capital-real-estate-3427",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/17f3f0\/3427-logo.jpg",
+    			"logo_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_broker\/logo\/ac3cc79612ed3e48406a7bb7595125dbce8bcc1a\/desktop"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "336",
+    		"attributes": {
+    			"name": "Provident Real Estate",
+    			"phone": "+97143233609",
+    			"license_label": "RERA",
+    			"license_number": "1933",
+    			"location_name": "Dubai",
+    			"agents": 36
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/provident-real-estate-336",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/3\/178\/98\/MODE\/028932\/336-logo.jpg",
+    			"logo_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_broker\/logo\/aab7e019c2db4ecbdb489eb155bca50c265ad222\/desktop"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "838",
+    		"attributes": {
+    			"name": "Ideal Homes Realty",
+    			"phone": "+971501636666",
+    			"license_label": "RERA",
+    			"license_number": "586",
+    			"location_name": "Dubai",
+    			"agents": 1
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/ideal-homes-realty-838",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/2\/178\/98\/MODE\/fc7034\/838-logo.jpg",
+    			"logo_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_broker\/logo\/854276781bc6c33abf713fff0528fdfe3661feb7\/desktop"
+    		}
+    	}, {
+    		"type": "broker",
+    		"id": "400",
+    		"attributes": {
+    			"name": "Fine Home Real Estate LLC",
+    			"phone": "+97126592300",
+    			"license_label": "License",
+    			"license_number": "CN-1149643",
+    			"location_name": "Abu Dhabi",
+    			"agents": 3
+    		},
+    		"links": {
+    			"profile": "\/en\/broker\/fine-home-real-estate-llc-400",
+    			"logo_178_98": "https:\/\/www.propertyfinder.ae\/broker\/8\/178\/98\/MODE\/bc8bc8\/400-logo.jpg",
+    			"logo_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_broker\/logo\/f98db70d66e0c44ba3b1360ceede73c54ddcac22\/desktop"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "179261",
+    		"attributes": {
+    			"user_id": "46481",
+    			"name": "Khaled Shamma",
+    			"phone": "+971508492962",
+    			"phone_did": null,
+    			"phone_is_mobile": true,
+    			"position": "Manager",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "Syria",
+    			"agent_broker_license_no": "32968",
+    			"total_properties": 20
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/khaled-shamma-179261",
+    			"image_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_agent\/picture\/ab4b244cb35839086b15158a8866e8e1bed3531c\/desktop2x"
+    		},
+    		"meta": {
+    			"broker_id": "2928",
+    			"broker_name": "Elite Estates Real Estate Broker"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "156890",
+    		"attributes": {
+    			"user_id": "27532",
+    			"name": "Sonu Miglani",
+    			"phone": "+971555519767",
+    			"phone_did": "+971528667828",
+    			"phone_is_mobile": true,
+    			"position": "Director ",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "India",
+    			"agent_broker_license_no": "42384",
+    			"total_properties": 46
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/sonu-miglani-156890",
+    			"image_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_agent\/picture\/3501a3ea739d3793eabd1f0ec9bc994246df7227\/desktop2x"
+    		},
+    		"meta": {
+    			"broker_id": "2308",
+    			"broker_name": "Think Properties"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "135237",
+    		"attributes": {
+    			"user_id": "6451",
+    			"name": "Zahra Naderifar",
+    			"phone": "+971554479726",
+    			"phone_did": "+971525239615",
+    			"phone_is_mobile": true,
+    			"position": "Real Estate Consultant",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "Iran",
+    			"agent_broker_license_no": "22994",
+    			"total_properties": 7
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/zahra-naderifar-135237",
+    			"image_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_agent\/picture\/42a28faf17a75aaa410dd93223936beec02b91e3\/desktop2x"
+    		},
+    		"meta": {
+    			"broker_id": "58",
+    			"broker_name": "Coldwell Banker"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "175676",
+    		"attributes": {
+    			"user_id": "43422",
+    			"name": "Muhammad Mohsin",
+    			"phone": "+971558278282",
+    			"phone_did": "+971525258693",
+    			"phone_is_mobile": true,
+    			"position": "Agent",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "",
+    			"agent_broker_license_no": "",
+    			"total_properties": 39
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/muhammad-mohsin-175676"
+    		},
+    		"meta": {
+    			"broker_id": "2337",
+    			"broker_name": "Mohsin Real Estate LLC"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "173630",
+    		"attributes": {
+    			"user_id": "41423",
+    			"name": "Amwaj Properties",
+    			"phone": "+971556693165",
+    			"phone_did": "+971525302926",
+    			"phone_is_mobile": true,
+    			"position": "Agent",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "",
+    			"agent_broker_license_no": "",
+    			"total_properties": 51
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/amwaj-properties-173630"
+    		},
+    		"meta": {
+    			"broker_id": "3610",
+    			"broker_name": "Amwaj Properties"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "172449",
+    		"attributes": {
+    			"user_id": null,
+    			"name": "Ejaz SM",
+    			"phone": "+971553393513",
+    			"phone_did": null,
+    			"phone_is_mobile": true,
+    			"position": "Agent",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "",
+    			"agent_broker_license_no": "",
+    			"total_properties": 4
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/ejaz-sm-172449"
+    		},
+    		"meta": {
+    			"broker_id": "3271",
+    			"broker_name": "Virtual Doors Real Estate "
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "175084",
+    		"attributes": {
+    			"user_id": "42755",
+    			"name": "Sam Issa",
+    			"phone": "+971567502053",
+    			"phone_did": "+971525198947",
+    			"phone_is_mobile": true,
+    			"position": "Senior Property Consultant",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "New Zealand",
+    			"agent_broker_license_no": "40214",
+    			"total_properties": 128
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/sam-issa-175084",
+    			"image_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_agent\/picture\/ee742a22f45626af6d90c530f1c4e44fa277d4d5\/desktop2x"
+    		},
+    		"meta": {
+    			"broker_id": "3764",
+    			"broker_name": "Realpoint Real Estate"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "172953",
+    		"attributes": {
+    			"user_id": "41066",
+    			"name": "Muhammad Sadan Humayoon",
+    			"phone": "+971527589599",
+    			"phone_did": "+971528385072",
+    			"phone_is_mobile": true,
+    			"position": "Agent",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "",
+    			"agent_broker_license_no": "",
+    			"total_properties": 18
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/muhammad-sadan-humayoon-172953"
+    		},
+    		"meta": {
+    			"broker_id": "991",
+    			"broker_name": "Ardin Realty Brokers"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "170582",
+    		"attributes": {
+    			"user_id": "39350",
+    			"name": "Sergiu Racu",
+    			"phone": "+971526744487",
+    			"phone_did": "+971555838337",
+    			"phone_is_mobile": true,
+    			"position": "Senior Sales Manager",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "Romania",
+    			"agent_broker_license_no": "37528",
+    			"total_properties": 72
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/sergiu-racu-170582",
+    			"image_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_agent\/picture\/e1bf3bcb9866d7792fc25cf1a8dda9ac202bcb57\/desktop2x"
+    		},
+    		"meta": {
+    			"broker_id": "3427",
+    			"broker_name": "Ax Capital Real Estate"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "172455",
+    		"attributes": {
+    			"user_id": "40792",
+    			"name": "Adeel Ali",
+    			"phone": "+971528544247",
+    			"phone_did": "+971582157404",
+    			"phone_is_mobile": true,
+    			"position": "Client Consultant",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "Pakistan",
+    			"agent_broker_license_no": "41501",
+    			"total_properties": 18
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/adeel-ali-172455",
+    			"image_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_agent\/picture\/6eb09ca11c98aa4d552393964b21027284da36df\/desktop2x"
+    		},
+    		"meta": {
+    			"broker_id": "336",
+    			"broker_name": "Provident Real Estate"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "157279",
+    		"attributes": {
+    			"user_id": "31671",
+    			"name": "Ideal Homes Realty KD",
+    			"phone": "+971505039339",
+    			"phone_did": null,
+    			"phone_is_mobile": true,
+    			"position": "Sales Manager",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "Philippines",
+    			"agent_broker_license_no": "42927",
+    			"total_properties": 8
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/ideal-homes-realty-kd-157279",
+    			"image_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_agent\/picture\/a64202831e83d5f8f16f24f283a66f43787bfd87\/desktop2x"
+    		},
+    		"meta": {
+    			"broker_id": "838",
+    			"broker_name": "Ideal Homes Realty"
+    		}
+    	}, {
+    		"type": "agent",
+    		"id": "153482",
+    		"attributes": {
+    			"user_id": "29113",
+    			"name": "Free Hold",
+    			"phone": "+97126592300",
+    			"phone_did": null,
+    			"phone_is_mobile": false,
+    			"position": "Free Hold Manger ",
+    			"smart_ad": false,
+    			"listing_level": 0,
+    			"country_name": "Egypt",
+    			"agent_broker_license_no": "CN-1149643",
+    			"total_properties": 245
+    		},
+    		"links": {
+    			"profile": "\/en\/agent\/free-hold-153482",
+    			"image_desktop": "https:\/\/www.propertyfinder.ae\/images\/pf_agent\/picture\/a166f44d5e23d9362d629f2b66556029470e31f8\/desktop2x"
+    		},
+    		"meta": {
+    			"broker_id": "400",
+    			"broker_name": "Fine Home Real Estate LLC"
+    		}
+    	}, {
+    		"type": "property_type",
+    		"id": "1",
+    		"attributes": {
+    			"name": "Apartment",
+    			"key": "apartment",
+    			"dfp_key": "Apartment",
+    			"abbreviation": "AP",
+    			"published": true,
+    			"order": 1
+    		}
+    	}, {
+    		"type": "property_type",
+    		"id": "35",
+    		"attributes": {
+    			"name": "Villa",
+    			"key": "villa",
+    			"dfp_key": "Villa",
+    			"abbreviation": "VH",
+    			"published": true,
+    			"order": 6
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "1",
+    		"attributes": {
+    			"name": "Dubai",
+    			"path_name": "",
+    			"location_type": "CITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "86",
+    		"attributes": {
+    			"name": "Palm Jumeirah",
+    			"path_name": "Dubai",
+    			"location_type": "COMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "9528",
+    		"attributes": {
+    			"name": "Seven Palm",
+    			"path_name": "Dubai, Palm Jumeirah",
+    			"location_type": "SUBCOMMUNITY"
+    		},
+    		"links": {
+    			"building_reviews": "\/en\/building-reviews\/dubai\/palm-jumeirah-seven-palm.html"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "50",
+    		"attributes": {
+    			"name": "Dubai Marina",
+    			"path_name": "Dubai",
+    			"location_type": "COMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "8995",
+    		"attributes": {
+    			"name": "Vida Residences Dubai Marina",
+    			"path_name": "Dubai, Dubai Marina",
+    			"location_type": "SUBCOMMUNITY"
+    		},
+    		"links": {
+    			"building_reviews": "\/en\/building-reviews\/dubai\/dubai-marina-vida-residences-dubai-marina.html"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "84",
+    		"attributes": {
+    			"name": "Old Town",
+    			"path_name": "Dubai",
+    			"location_type": "COMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "1180",
+    		"attributes": {
+    			"name": "Zaafaran",
+    			"path_name": "Dubai, Old Town",
+    			"location_type": "SUBCOMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "4201",
+    		"attributes": {
+    			"name": "Zaafaran 3",
+    			"path_name": "Dubai, Old Town, Zaafaran",
+    			"location_type": "TOWER"
+    		},
+    		"links": {
+    			"building_reviews": "\/en\/building-reviews\/dubai\/old-town-zaafaran-zaafaran-3.html"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "5",
+    		"attributes": {
+    			"name": "Ajman",
+    			"path_name": "",
+    			"location_type": "CITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "225",
+    		"attributes": {
+    			"name": "Al Naemiyah",
+    			"path_name": "Ajman",
+    			"location_type": "COMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "8882",
+    		"attributes": {
+    			"name": "City Tower",
+    			"path_name": "Ajman, Al Naemiyah",
+    			"location_type": "SUBCOMMUNITY"
+    		},
+    		"links": {
+    			"building_reviews": "\/en\/building-reviews\/ajman\/al-naemiyah-city-tower.html"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "41",
+    		"attributes": {
+    			"name": "Downtown Dubai",
+    			"path_name": "Dubai",
+    			"location_type": "COMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "604",
+    		"attributes": {
+    			"name": "Burj Khalifa Area",
+    			"path_name": "Dubai, Downtown Dubai",
+    			"location_type": "SUBCOMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "2710",
+    		"attributes": {
+    			"name": "Burj Khalifa",
+    			"path_name": "Dubai, Downtown Dubai, Burj Khalifa Area",
+    			"location_type": "TOWER"
+    		},
+    		"links": {
+    			"building_reviews": "\/en\/building-reviews\/dubai\/downtown-dubai-burj-khalifa-area-burj-khalifa.html",
+    			"image_location": "https:\/\/www.propertyfinder.ae\/images\/pf_portal\/tower\/3b742cdfd960857bbcb3e169b3af0704a04a84f5\/desktop"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "720",
+    		"attributes": {
+    			"name": "Marina Diamonds",
+    			"path_name": "Dubai, Dubai Marina",
+    			"location_type": "SUBCOMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "71",
+    		"attributes": {
+    			"name": "Jumeirah Lake Towers",
+    			"path_name": "Dubai",
+    			"location_type": "COMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "9926",
+    		"attributes": {
+    			"name": "Se7en City JLT",
+    			"path_name": "Dubai, Jumeirah Lake Towers",
+    			"location_type": "SUBCOMMUNITY"
+    		},
+    		"links": {
+    			"building_reviews": "\/en\/building-reviews\/dubai\/jumeirah-lake-towers-se7en-city-jlt.html"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "62",
+    		"attributes": {
+    			"name": "Dubai Production City (IMPZ)",
+    			"path_name": "Dubai",
+    			"location_type": "COMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "883",
+    		"attributes": {
+    			"name": "Midtown",
+    			"path_name": "Dubai, Dubai Production City (IMPZ)",
+    			"location_type": "SUBCOMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "3579",
+    		"attributes": {
+    			"name": "Afnan 5",
+    			"path_name": "Dubai, Dubai Production City (IMPZ), Midtown",
+    			"location_type": "TOWER"
+    		},
+    		"links": {
+    			"building_reviews": "\/en\/building-reviews\/dubai\/dubai-production-city-impz-midtown-afnan-5.html"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "607",
+    		"attributes": {
+    			"name": "Burj Views",
+    			"path_name": "Dubai, Downtown Dubai",
+    			"location_type": "SUBCOMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "2727",
+    		"attributes": {
+    			"name": "Burj Views C",
+    			"path_name": "Dubai, Downtown Dubai, Burj Views",
+    			"location_type": "TOWER"
+    		},
+    		"links": {
+    			"building_reviews": "\/en\/building-reviews\/dubai\/downtown-dubai-burj-views-burj-views-c.html",
+    			"image_location": "https:\/\/www.propertyfinder.ae\/images\/pf_portal\/tower\/c292d5f57079e9edeca6ad8e7d45d31b505ab84f\/desktop"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "89",
+    		"attributes": {
+    			"name": "The Springs",
+    			"path_name": "Dubai",
+    			"location_type": "COMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "4465",
+    		"attributes": {
+    			"name": "Springs 6",
+    			"path_name": "Dubai, The Springs",
+    			"location_type": "TOWER"
+    		},
+    		"links": {
+    			"building_reviews": "\/en\/building-reviews\/dubai\/the-springs-springs-6.html"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "55",
+    		"attributes": {
+    			"name": "Dubai Sports City",
+    			"path_name": "Dubai",
+    			"location_type": "COMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "3345",
+    		"attributes": {
+    			"name": "Stadium Point",
+    			"path_name": "Dubai, Dubai Sports City",
+    			"location_type": "TOWER"
+    		},
+    		"links": {
+    			"building_reviews": "\/en\/building-reviews\/dubai\/dubai-sports-city-stadium-point.html"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "6",
+    		"attributes": {
+    			"name": "Abu Dhabi",
+    			"path_name": "",
+    			"location_type": "CITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "279",
+    		"attributes": {
+    			"name": "Al Reem Island",
+    			"path_name": "Abu Dhabi",
+    			"location_type": "COMMUNITY"
+    		}
+    	}, {
+    		"type": "location",
+    		"id": "1874",
+    		"attributes": {
+    			"name": "Shams Abu Dhabi",
+    			"path_name": "Abu Dhabi, Al Reem Island",
+    			"location_type": "SUBCOMMUNITY"
+    		}
+    	}]
+    }
