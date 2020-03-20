@@ -1,0 +1,7 @@
+---
+label: Index Template
+hide_body: true
+fields:
+- type: text
+  name: author
+  label: author
