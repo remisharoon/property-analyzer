@@ -24,7 +24,7 @@ export default () => (
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="mt-4 text-gray-600">Awesome</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
