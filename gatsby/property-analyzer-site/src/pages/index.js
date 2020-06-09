@@ -9,7 +9,9 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
-import Plot from 'react-plotly.js';
+// import Plot from 'react-plotly.js';
+import loadable from '@loadable/component';
+const Plot = loadable(() => import('react-plotly.js'))
 
 export default () => (
   <Layout>

@@ -1,6 +1,9 @@
 import React from 'react'
 import Layout from '../components/layout/Layout';
-import Plot from 'react-plotly.js';
+// import Plot from 'react-plotly.js';
+import loadable from '@loadable/component';
+const Plot = loadable(() => import('react-plotly.js'))
+
 
 export default function About() {
     return (
