@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing 1',
     content:
       'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
     customerName: 'Jane Doe',
@@ -8,7 +8,7 @@ export default [
     customerImage: 'https://placeimg.com/150/150/people'
   },
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing 2',
     content:
       'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
     customerName: 'John Doe',
@@ -16,7 +16,7 @@ export default [
     customerImage: 'https://placeimg.com/150/150/people'
   },
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing 3',
     content:
       'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
     customerName: 'Jane Smith',

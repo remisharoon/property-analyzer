@@ -11,6 +11,8 @@ import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 // import Plot from 'react-plotly.js';
 import loadable from '@loadable/component';
+import test_plot from '../data/test_plot';
+
 const Plot = loadable(() => import('react-plotly.js'))
 
 export default () => (
@@ -35,21 +37,24 @@ export default () => (
             {
               type: 'scatter',
               mode: 'lines+points',
-              x: [1, 2, 3],
-              y: [2, 6, 3],
-              marker: {color: 'red'}
+              x: test_plot.month,
+              y: test_plot.high_2007,
+              marker: {color: 'red'},
+              name: "2007"
             },
             {
               type: 'bar',
-              x: [1, 2, 3],
-              y: [2, 5, 3]
+              x: test_plot.month,
+              y: test_plot.low_2014,
+              marker: {color: 'blue'},
+              name: "2014"
             }
           ]}
 
           layout={{
-            width: 620,
+            width: 720,
             height: 440,
-            title: 'A Fancy Plot'
+            title: 'Housing Prices Trend'
           }}
         />
 

@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from '../components/layout/Layout';
 // import Plot from 'react-plotly.js';
 import loadable from '@loadable/component';
+import test_plot from '../data/test_plot';
+
 const Plot = loadable(() => import('react-plotly.js'))
 
 
@@ -14,16 +16,10 @@ export default function About() {
       </div>
       <Plot
         data={[
-          {
-            x: [1, 2, 3],
-            y: [2, 6, 3],
-            type: 'scatter',
-            mode: 'lines+markers',
-            marker: {color: 'red'},
-          },
-          {type: 'bar', x: [1, 2, 3], y: [2, 5, 3]},
-        ]}
-        layout={{width: 320, height: 240, title: 'A Fancy Plot'}}
+            test_plot.high_2000, 
+            test_plot.month,
+          ]}
+          graphDiv="graph"
       />    
       </Layout>
     )
