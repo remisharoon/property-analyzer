@@ -9,6 +9,7 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import Plot from 'react-plotly.js';
 
 export default () => (
   <Layout>
@@ -26,9 +27,33 @@ export default () => (
           </p>
           <p className="mt-4 text-gray-600">Awesome</p>
         </div>
-        <div className="lg:w-1/2">
+
+        <Plot
+          data={[
+            {
+              type: 'scatter',
+              mode: 'lines+points',
+              x: [1, 2, 3],
+              y: [2, 6, 3],
+              marker: {color: 'red'}
+            },
+            {
+              type: 'bar',
+              x: [1, 2, 3],
+              y: [2, 5, 3]
+            }
+          ]}
+
+          layout={{
+            width: 620,
+            height: 440,
+            title: 'A Fancy Plot'
+          }}
+        />
+
+        {/* <div className="lg:w-1/2">
           <HeroImage />
-        </div>
+        </div> */}
       </div>
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
