@@ -62,7 +62,7 @@ export default () => (
           </p>
           <p className="mt-4 text-gray-600">Awesome</p>
         </div>
-
+{/* 
         <Plot
           data={[
             {
@@ -87,7 +87,7 @@ export default () => (
             height: 440,
             title: 'Housing Prices Trend'
           }}
-        />
+        /> */}
 
         {/* <div className="lg:w-1/2">
           <HeroImage />
