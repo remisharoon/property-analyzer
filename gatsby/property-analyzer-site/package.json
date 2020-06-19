@@ -9,16 +9,14 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "@loadable/component": "5.12.0",
+    "d3": "5.9.7",
+    "d3blackbox": "^1.2.0",
     "gatsby": "^2.18.18",
     "gatsby-theme-codebushi": "1.0.0",
-    "plotly.js": "1.54.1",
     "react": "^16.12.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.12.0",
-    "react-plotly.js": "2.4.0",
-    "d3": "5.9.7",
-    "d3blackbox": "^1.2.0"
+    "recharts": "^1.8.5"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

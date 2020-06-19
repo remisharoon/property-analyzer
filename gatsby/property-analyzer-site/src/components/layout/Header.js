@@ -28,6 +28,9 @@ const Header = () => (
         <AnchorLink className="px-4" href="#market_analysis">
           Market Analysis
         </AnchorLink>        
+        <AnchorLink className="px-4" href="/about/" to="/about/">
+          About
+        </AnchorLink>            
       </div>
       <div className="hidden md:block">
         <Button className="text-sm">Start The Journey</Button>
