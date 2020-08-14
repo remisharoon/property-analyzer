@@ -19,7 +19,7 @@ url_base_res_sale_uae = "https://uae.dubizzle.com/en/property-for-sale/residenti
 url_base_comm_sale_uae = "https://uae.dubizzle.com/en/property-for-sale/commercial/?sort=newest&page="
 url_base_res_rent_uae = "https://uae.dubizzle.com/en/property-for-rent/residential/?sort=newest&page="
 url_base_comm_rent_uae = "https://uae.dubizzle.com/en/property-for-rent/commercial/?sort=newest&page="
-url_base = url_base_comm_sale_uae
+url_base = url_base_res_rent_uae
 
 for i in range(0, 500):
     url = url_base + str(i)
@@ -29,13 +29,16 @@ for i in range(0, 500):
         soup = BeautifulSoup(page.text, 'html.parser')
         try:
             scripts = soup.find_all('script')
-
+            # data_ui = movies = soup.select (".key-fact__value")
+            print(soup)
             for s in scripts:
                 if 'algolia' in s.text:
                     lines = s.text.split("\n")
-                    jsontstr = lines[5].replace("window.__INITIAL_STATE__ = JSON.parse(\"","").replace("\\","").replace("\");","")
-                    #print(jsontstr)
-                    listings = json.loads(jsontstr)['results']['results']['hits']
+                    print(lines[5])
+                    jsontstr = lines[5].replace("\\\\\\\"","").replace("window.__INITIAL_STATE__ = JSON.parse(\"","").replace("\\","").replace("\");","")
+                    print(jsontstr)
+                    jsonobj = json.loads(jsontstr)
+                    listings = jsonobj['results']['results']['hits']
                     for listing in listings:
                         try:
                             dub = Dubizzle(

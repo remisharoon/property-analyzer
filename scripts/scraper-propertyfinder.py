@@ -6,18 +6,22 @@ from src.models.propertyfinder import Propertyfinder
 from dataclasses import asdict, astuple, replace
 from pymongo import MongoClient
 import random
+from src.parsers.prop_fndr_detail_parser import PropFndrDetailParser
+import datetime
 
-
-client = MongoClient("mongodb+srv://prop_analyzer:prop_analyzer123@cluster-prop-analyzer-0-otjuz.mongodb.net/test?retryWrites=true&w=majority")
-db = client.property_analyzer
-prop_collection = db.properties
+# client = MongoClient("mongodb+srv://prop_analyzer:prop_analyzer123@cluster-prop-analyzer-0-otjuz.mongodb.net/test?retryWrites=true&w=majority")
+client = MongoClient('localhost', 27017)
+db = client.property_analyzer_db
+prop_collection = db.prop_collection
 
 
 l_listing_type = "Sale"
 url_base_res_sale_uae = "https://www.propertyfinder.ae/en/search?c=1&ob=nd&page="
 url_base = url_base_res_sale_uae
 
-for i in range(1500, 1700):
+start = 1401
+end = 1500
+for i in range(start, end):
     url = url_base + str(i)
     do = True
     while(do):
@@ -32,7 +36,7 @@ for i in range(1500, 1700):
                     for line in lines:
                         if "payload" in line:
                             jsontstr = line.replace("payload: ","").rstrip(",")
-                            #print(jsontstr)
+                            print(jsontstr)
                             listings = json.loads(jsontstr)['included']
                             for listing in listings:
                                 try:
@@ -49,6 +53,7 @@ for i in range(1500, 1700):
                                     agent_name = listing['agent']['name']['en'] if 'agent' in listing and listing['agent'] is not None else None,
                                     agent_id = listing['relationships']['agent']['data']['id'] if 'relationships' in listing and listing['relationships'] is not None else None,
                                     posted_date = listing['added'] if 'added' in listing else None,
+                                    date_insert = listing['date_insert'] if 'date_insert' in listing else None,
                                     categories_ids = listing['categories']['ids'] if 'categories' in listing else None,
                                     categories_tags = attributes['type_identifier'] if 'type_identifier' in attributes else None,
                                     categories_names = attributes['type_identifier'] if 'type_identifier' in attributes else None,
@@ -74,7 +79,23 @@ for i in range(1500, 1700):
                                     listing_id= 'propertyfinder_' + str(listing['id'])
                                     )
                                     data = asdict(pf)
-                                    print(data)
+                                    listing_id = int(listing['id'])
+                                    listing_url = data['detail_url']
+                                    pfdetail = PropFndrDetailParser(listing_url, listing_id)
+                                    parsed_dict = pfdetail.parse()
+                                    # data['posted_date'] = parsed_dict['date_insert']
+
+                                    #"date_insert": "2020-07-20T22:36:32+00:00"
+
+                                    date_insert = datetime.datetime.strptime(parsed_dict['date_insert'], "%Y-%m-%dT%H:%M:%S+00:00")
+                                    data['posted_date'] = date_insert
+                                    data['date_insert'] = date_insert
+                                    data["year"] = date_insert.year
+                                    data["month"] = date_insert.month
+                                    data["day"] = date_insert.day
+                                    data['attributes'] = parsed_dict['attributes']
+                                    data['related_info'] = parsed_dict['related_info']
+                                    print(data['date_insert'])
                                     key = {'listing_id': data['listing_id']}
                                     prop_collection.replace_one(key, data, True)
                                 except Exception as e:

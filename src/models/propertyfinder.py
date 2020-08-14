@@ -4,6 +4,7 @@ from dataclasses import dataclass
 @dataclass(frozen=False)
 class Propertyfinder(Property):
     posted_date: int
+    date_insert: str
     detail_url: str
     image_url: str
     furnished: bool
@@ -16,3 +17,7 @@ class Propertyfinder(Property):
     contact_options: str
     size_unit: str
     completion_status:str
+
+
+if __name__ == "__main__":
+    print("Hellooo")

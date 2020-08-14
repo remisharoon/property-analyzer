@@ -9,11 +9,9 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
-import test_plot from '../data/test_plot';
 
-import dataTsv from '../data/bar_chart';
 import '../css/chart.css';
-import rcdata from '../data/rechart_data'
+import dpprices from '../data/dubai_prop_prices'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
 
 
@@ -35,16 +33,17 @@ export default () => (
         </div>
 
         <LineChart
-            width={400}
+            width={800}
             height={400}
-            data={rcdata}
-            margin={{ top: 5, right: 20, left: 10, bottom: 5 }}
+            data={dpprices}
+            margin={{ top: 1, right: 2, left: 1, bottom: 1 }}
             >
             <XAxis dataKey="name" />
             <Tooltip />
-            <CartesianGrid stroke="#f5f5f5" />
+            {/* <CartesianGrid stroke="#f5f5f5" /> */}
             <Line type="monotone" dataKey="uv" stroke="#ff7300" yAxisId={0} />
             <Line type="monotone" dataKey="pv" stroke="#387908" yAxisId={1} />
+            <Line type="monotone" dataKey="amt" activeDot={false} yAxisId={2} />
             </LineChart>
         {/* <div className="lg:w-1/2">
           <HeroImage />
