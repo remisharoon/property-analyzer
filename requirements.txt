@@ -24,3 +24,6 @@ soupsieve==2.0
 urllib3==1.25.8
 pandas
 matplotlib
+pyyaml
+requests
+ibm-cos-sdk
