@@ -27,3 +27,4 @@ matplotlib
 pyyaml
 requests
 ibm-cos-sdk
+dataclasses
