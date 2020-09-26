@@ -26,3 +26,7 @@ class IBMClient:
             print(Exception, e)
         else:
             print('File Uploaded')
+
+    #BROKEN
+    def create_folder(self,bucket_name, foler_name):
+        self.cos.upload_file(Bucket=bucket_name, Body='', Key= foler_name + '/')

@@ -25,5 +25,14 @@ class FileWriter(object):
         finally:
             f_writer.close()
 
-    def move_to_cloud(self):
-        pass
+    def move_to_cloud(self, folder_path, bucket_name):
+        # cos.upload_file(Filename='wine/wine.csv', Bucket=credentials['BUCKET'], Key='wine_data.csv')
+        date_dirs = os.listdir(folder_path)
+        for date_dir in date_dirs:
+            # self.ibm_client.create_folder(bucket_name, date_dir)
+            path_date_dir = os.path.join(folder_path, date_dir)
+            files = os.listdir(path_date_dir)
+            for filename in files:
+                file_path = os.path.join(path_date_dir, filename)
+                to_file_path = date_dir + "/" + filename
+                self.ibm_client.upload_file_cos(bucket_name , file_path, to_file_path)
