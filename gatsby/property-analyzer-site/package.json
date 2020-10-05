@@ -18,7 +18,8 @@
     "react-d3-library": "^1.1.8",
     "react-dom": "^16.13.1",
     "react-nvd3": "^0.5.7",
-    "recharts": "^1.8.5"
+    "recharts": "^1.8.5",
+    "alasql": "^0.6.4"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
