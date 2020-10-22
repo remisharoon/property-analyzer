@@ -7,7 +7,7 @@ df = df.sort_values(["city","year", "month"],ascending=[True, True, True]).reset
 
 df.to_csv("monthly_avg_price.csv", index=False)
 
-dubai2br = df[ (df["city"] == 'Dubai') & (df["bedrooms"] == 4) ]
+dubai2br = df[ (df["city"] == 'Dubai') & (df["bedrooms"] == 3) ].sort_values("date")
 print(dubai2br.head(100))
 
 import pandas as pd

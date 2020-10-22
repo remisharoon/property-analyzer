@@ -1,4 +1,6 @@
-import * as alasql from 'alasql';
+
+
+
 
 // var timing_output = '[ {  "path" : "https:\/\/mail.google.com\/mail\/u\/0",    "endDate" : "2015-02-11, 1:00 PM",    "startDate" : "2015-02-11, 12:00 PM",    "application" : "Safari",    "duration" : 1528.618035137653  }]';
 
@@ -26,14 +28,25 @@ import * as alasql from 'alasql';
 
 // console.log("resss = " + JSON.stringify(res, null, 2));
 
-alasql.promise('SELECT col1 FROM CSV("monthly_avg_price.csv", {headers:false, quote:"\'",separator:","})')
-.then(function(data){
-     console.log(data);
-    console.log("Gooooodoododdoododododdo");
-}).catch(function(err){
-      console.log("Erroooorororororororororo");
-    //  console.log('Error:', err);
+// import * as alasql from 'alasql';
+
+// alasql.promise('SELECT Age FROM CSV("/data.csv", {headers:true, quote:"\'",separator:","})')
+// .then(function(data){
+//      console.log(data);
+//     console.log("Gooooodoododdoododododdo");
+// }).catch(function(err){
+//       console.log("Erroooorororororororororo");
+//     //  console.log('Error:', err);
+// });
+
+import * as d3 from 'd3';
+var data_json = d3.csv("/data.csv").then(function(data) {
+  console.log("from d3");
+  console.log(data); // [{"Hello": "world"}, …]
+  return data;
 });
+
+console.log(data_json);
 
 export default [
     { name: 'January', uv: 4000, pv: 2400, amt: 2400 },
