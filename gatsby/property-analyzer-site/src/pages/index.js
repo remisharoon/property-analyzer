@@ -6,12 +6,15 @@ import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
-import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
-
 import '../css/chart.css';
+
+//Data imports
+import customerData from '../data/customer-data';
 import dpprices from '../data/dubai_prop_prices'
+import dp2brprices from '../data/dubai_2br_monthly_avg'
+
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
 
 
@@ -35,7 +38,7 @@ export default () => (
         <LineChart
             width={800}
             height={400}
-            data={dpprices}
+            data={dp2brprices}
             margin={{ top: 1, right: 2, left: 1, bottom: 1 }}
             >
             <XAxis dataKey="name" />
@@ -43,8 +46,8 @@ export default () => (
             {/* <CartesianGrid stroke="#f5f5f5" /> */}
             <Line type="monotone" dataKey="uv" stroke="#ff7300" yAxisId={0} />
             <Line type="monotone" dataKey="pv" stroke="#387908" yAxisId={1} />
-            <Line type="monotone" dataKey="amt" activeDot={false} yAxisId={2} />
-            </LineChart>
+            <Line type="monotone" dataKey="price" activeDot={false} yAxisId={2} />
+        </LineChart>
         {/* <div className="lg:w-1/2">
           <HeroImage />
         </div> */}

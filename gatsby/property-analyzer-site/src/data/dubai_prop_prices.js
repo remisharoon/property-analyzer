@@ -39,25 +39,68 @@
 //     //  console.log('Error:', err);
 // });
 
+// import * as d3 from 'd3';
+// var data_json = d3.csv("data/dubai_2br_monthly_avg.csv").then(function(data) {
+//   console.log("from d3");
+//   console.log(data); // [{"Hello": "world"}, …]
+//   return data;
+// });
+
+
+import { csvParse } from 'd3-dsv';
+// import dataCsv from '../data/bar_chart';
+import dataCsv from '../data/bar_chart';
+
 import * as d3 from 'd3';
-var data_json = d3.csv("/data.csv").then(function(data) {
-  console.log("from d3");
-  console.log(data); // [{"Hello": "world"}, …]
-  return data;
+
+// var fr=new FileReader(); 
+// fr.readAsText('../data/bar_chart'); 
+// console.log(fr.result)
+
+// const fs = require('fs') 
+  
+// fs.readFile('../data/dubai_2br_monthly_avg_csv.js', (err, data) => { 
+//     if (err) throw err; 
+  
+//     console.log(data.toString()); 
+// }) 
+
+
+// d3.text("data/testnh.csv", function(r){
+//   var result = "x, y, z\n" + r;  //now you have the header
+//   var data = d3.csv.parse(result);
+// };
+
+d3.text("../data/dubai_2br_monthly_avg.csv", function(text) {
+  console.log("Helloooooooo")
+  console.log(d3.csvParseRows(text));
 });
 
-console.log(data_json);
+const data = csvParse(dataCsv, d => {
+  d.frequency = +d.frequency;
+  // console.log(d);
+  return d;
+});
 
-export default [
-    { name: 'January', uv: 4000, pv: 2400, amt: 2400 },
-    { name: 'February', uv: 3000, pv: 1398, amt: 2210 },
-    { name: 'March', uv: 2000, pv: 9800, amt: 2290 },
-    { name: 'April', uv: 2780, pv: 3908, amt: 2000 },
-    { name: 'June', uv: 1890, pv: 4800, amt: 2181 },
-    { name: 'July', uv: 2390, pv: 3800, amt: 2500 },
-    { name: 'August', uv: 3490, pv: 4300, amt: 2100 },
-    { name: 'September', uv: 3490, pv: 4300, amt: 2100 },
-    { name: 'October', uv: 3490, pv: 4300, amt: 2100 },
-    { name: 'Novemeber', uv: 3490, pv: 4300, amt: 2100 },
-    { name: 'December', uv: 3490, pv: 4300, amt: 2100 },
-  ];
+// console.log(data);
+
+// console.log("am i logged???")
+// console.log(data_json);
+
+export default data;
+
+// export default data_json;
+
+// export default [
+//     { name: 'January', uv: 4000, pv: 2400, amt: 2400 },
+//     { name: 'February', uv: 3000, pv: 1398, amt: 2210 },
+//     { name: 'March', uv: 2000, pv: 9800, amt: 2290 },
+//     { name: 'April', uv: 2780, pv: 3908, amt: 2000 },
+//     { name: 'June', uv: 1890, pv: 4800, amt: 2181 },
+//     { name: 'July', uv: 2390, pv: 3800, amt: 2500 },
+//     { name: 'August', uv: 3490, pv: 4300, amt: 2100 },
+//     { name: 'September', uv: 3490, pv: 4300, amt: 2100 },
+//     { name: 'October', uv: 3490, pv: 4300, amt: 2100 },
+//     { name: 'Novemeber', uv: 3490, pv: 4300, amt: 2100 },
+//     { name: 'December', uv: 3490, pv: 4300, amt: 2100 },
+//   ];

@@ -10,7 +10,8 @@ class IBMClient:
 
         auth_endpoint = cos_credentials['auth_endpoint']
         service_endpoint = cos_credentials['service_endpoint']
-        self.cos = ibm_boto3.resource('s3',
+        # self.cos = ibm_boto3.resource('s3',
+        self.cos = ibm_boto3.client('s3',
                                ibm_api_key_id=cos_credentials['apikey'],
                                ibm_service_instance_id=cos_credentials['resource_instance_id'],
                                ibm_auth_endpoint=auth_endpoint,
@@ -36,9 +37,9 @@ class IBMClient:
         else:
             print('File Uploaded')
 
-    def download_file_cos(self,bucket, local_file_name,key):
+    def download_file_cos(self,bucket, file_name,key):
         try:
-            res= self.cos.upload_file(Filename=local_file_name, Bucket=bucket,Key=key)
+            res= self.cos.upload_file(Filename=file_name, Bucket=bucket,Key=key)
         except Exception as e:
             print(Exception, e)
         else:
