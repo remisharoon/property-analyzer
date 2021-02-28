@@ -27,3 +27,4 @@ matplotlib
 pyyaml
 ibm-cos-sdk
 dataclasses
+boto3

@@ -8,18 +8,22 @@ from pymongo import MongoClient
 import random
 from src.parsers.prop_fndr_detail_parser import PropFndrDetailParser
 import datetime
+from src.connections.dynamodb_client import DynamodbClient
 
 # client = MongoClient("mongodb+srv://prop_analyzer:prop_analyzer123@cluster-prop-analyzer-0-otjuz.mongodb.net/test?retryWrites=true&w=majority")
 client = MongoClient('localhost', 27017)
 db = client.property_analyzer_db
 prop_collection = db.prop_collection
 
+ddc = DynamodbClient()
+table = ddc.dynamodb.Table("properties")
+print(table.table_status)
 
 l_listing_type = "Sale"
 url_base_res_sale_uae = "https://www.propertyfinder.ae/en/search?c=1&ob=nd&page="
 url_base = url_base_res_sale_uae
 
-start = 1401
+start = 1
 end = 1500
 for i in range(start, end):
     url = url_base + str(i)

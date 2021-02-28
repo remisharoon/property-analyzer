@@ -12,26 +12,31 @@ class PropFndrDetailParser(BaseParser):
         self.id = id
 
     def parse(self):
-        page = requests.get(self.url)
-        soup = BeautifulSoup(page.text, 'html.parser')
-        scripts = soup.find_all('script')
-        parsed_dict = {}
-        for s in scripts:
-            if 'window.propertyfinder.settings.search' in s.text:
-                lines = s.text.split("\n")
-                for line in lines:
-                    if "payload" in line:
-                        jsontstr = line.replace("payload: ", "").rstrip(",")
-                        jsondata = json.loads(jsontstr)
-                        header = jsondata['data']
-                        prop_id = int(header["id"])
-                        if prop_id == self.id:
-                            attributes = header['attributes']
-                            related_info = jsondata['included']
-                            parsed_dict["attributes"] = attributes
-                            parsed_dict["related_info"] = related_info
-                            parsed_dict["date_insert"] = attributes["date_insert"]
-                            return parsed_dict
+        print("In detail parse :::: ", self.url)
+        try:
+            page = requests.get(self.url, timeout=10)
+            soup = BeautifulSoup(page.text, 'html.parser')
+            scripts = soup.find_all('script')
+            parsed_dict = {}
+            for s in scripts:
+                if 'window.propertyfinder.settings.search' in s.text:
+                    lines = s.text.split("\n")
+                    for line in lines:
+                        if "payload" in line:
+                            jsontstr = line.replace("payload: ", "").rstrip(",")
+                            jsondata = json.loads(jsontstr)
+                            header = jsondata['data']
+                            prop_id = int(header["id"])
+                            if prop_id == self.id:
+                                attributes = header['attributes']
+                                related_info = jsondata['included']
+                                parsed_dict["attributes"] = attributes
+                                parsed_dict["related_info"] = related_info
+                                parsed_dict["date_insert"] = attributes["date_insert"]
+                                return parsed_dict
+        except Exception as e:
+            print(e)
+        print("In detail parse, nothing found , return None >>> ")
         return None
 
 if __name__ == "__main__":
