@@ -13,10 +13,13 @@ def path_constructor(loader, node):
 yaml.add_implicit_resolver('!path', path_matcher)
 yaml.add_constructor('!path', path_constructor)
 
-
 try:
-    with open("../config.yaml", "r") as ymlfile:
+    with open("config.yaml", "r") as ymlfile:
         cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
 except Exception as e:
-    with open("../../config.yaml", "r") as ymlfile:
-        cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
+    try:
+        with open("../config.yaml", "r") as ymlfile:
+            cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
+    except Exception as e:
+        with open("../../config.yaml", "r") as ymlfile:
+            cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
