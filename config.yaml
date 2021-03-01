@@ -13,13 +13,13 @@ other:
 ibm_credentials:
     auth_endpoint: "https://iam.bluemix.net/oidc/token"
     service_endpoint: "https://s3.eu-gb.cloud-object-storage.appdomain.cloud"
-    apikey: "**********************"
+    apikey: ${IBM_APIKEY}
     endpoints: "https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints"
     iam_apikey_description: "Auto-generated for key ****************************"
-    iam_apikey_name: "*****************"
+    iam_apikey_name: ${IBM_APIKEY_NAME}
     iam_role_crn: "crn:v1:bluemix:public:iam::::serviceRole:Manager"
-    iam_serviceid_crn: "*****************************"
-    resource_instance_id: "***************************************"
+    iam_serviceid_crn: ${IBM_SERVICEID_CRN}
+    resource_instance_id: ${IBM_RESOURCE_INSTANCE_ID}
 
 app:
     report_dest_folder: "gatsby/property-analyzer-site/static/data"
@@ -27,5 +27,5 @@ app:
 dynamodb:
     endpoint_url: "http://localhost:8090"
     region_name: "eu-central-1"
-    aws_access_key_id: "*************"
-    aws_secret_access_key: "***********************"
+    aws_access_key_id: ${DYNAMODB_ACCESS_KEY_ID}
+    aws_secret_access_key: ${DYNAMODB_SECRET_ACCESS_KEY}

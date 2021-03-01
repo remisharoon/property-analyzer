@@ -28,3 +28,4 @@ pyyaml
 ibm-cos-sdk
 dataclasses
 boto3
+envyaml
