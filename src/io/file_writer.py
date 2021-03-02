@@ -30,6 +30,9 @@ class FileWriter(object):
         dirs = os.listdir(folder_path)
         print("file written to : ", dirs)
 
+        dirs2 = os.listdir('pa_raw_data')
+        print("file in pa_raw_data directory : ", dirs2)
+
 
     def move_to_cloud(self, folder_path, bucket_name):
         # cos.upload_file(Filename='wine/wine.csv', Bucket=credentials['BUCKET'], Key='wine_data.csv')

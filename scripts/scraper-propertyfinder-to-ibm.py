@@ -9,9 +9,9 @@ from dataclasses import asdict, astuple, replace
 import random
 from src.parsers.prop_fndr_detail_parser import PropFndrDetailParser
 import datetime
-from src.io.file_writer import FileWriter
 from bson import json_util
 from src.connections.dynamodb_client import DynamodbClient
+from src.io.file_writer import FileWriter
 
 class MyException(Exception):
     pass
@@ -99,6 +99,7 @@ def parse_listing(listing):
         if 'Item' in res:
             item = res['Item']
             print("Item exists in dynamo :", item)
+            move_to_cloud()
             # for ikey in keys:
             #     prop_table.put_item(Item={'listing_id': ikey['listing_id'], 'posted_date_ts': ikey['posted_date_ts']})
             # break
@@ -141,6 +142,12 @@ def process_scripts(scripts):
             lines = s.text.split("\n")
             for line in lines:
                 process_line(line)
+
+def move_to_cloud():
+    fw = FileWriter()
+    path_prefix = "pa_raw_data"
+    bucket_name = "pa-raw-data"
+    fw.move_to_cloud(path_prefix, bucket_name)
 
 ddc = DynamodbClient()
 prop_table = ddc.dynamodb_aws.Table("properties")
