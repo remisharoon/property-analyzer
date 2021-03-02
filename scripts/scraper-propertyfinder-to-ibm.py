@@ -77,7 +77,8 @@ def parse_listing(listing):
         listing_url = data['detail_url']
         pfdetail = PropFndrDetailParser(listing_url, pf_listing_id)
         parsed_dict = pfdetail.parse()
-        print("page = ", pagenum, "parsed_dict = ", parsed_dict)
+        # print("page = ", pagenum, "parsed_dict = ", parsed_dict)
+        print("page = ", pagenum)
         # data['posted_date'] = parsed_dict['date_insert']
 
         # "date_insert": "2020-07-20T22:36:32+00:00"
@@ -97,7 +98,7 @@ def parse_listing(listing):
         res = prop_table.get_item(Key={'listing_id': data['listing_id'], 'posted_date_ts': posted_date_ts})
         if 'Item' in res:
             item = res['Item']
-            print(item)
+            print("Item exists in dynamo :", item)
             # for ikey in keys:
             #     prop_table.put_item(Item={'listing_id': ikey['listing_id'], 'posted_date_ts': ikey['posted_date_ts']})
             # break

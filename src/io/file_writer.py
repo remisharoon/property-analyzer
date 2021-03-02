@@ -16,7 +16,9 @@ class FileWriter(object):
 
     def write_local(self, folder_path, json_str):
         if not os.path.isdir(folder_path):
+            print("Folder doesnt exits, lets create")
             os.mkdir(folder_path)
+            print("folder created = ", folder_path)
         file_path = os.path.join(folder_path, self.filename)
         print("file_path", file_path)
         f_writer = open(file_path, 'a')
@@ -25,9 +27,15 @@ class FileWriter(object):
         finally:
             f_writer.close()
 
+        dirs = os.listdir(folder_path)
+        print("file written to : ", dirs)
+
+
     def move_to_cloud(self, folder_path, bucket_name):
         # cos.upload_file(Filename='wine/wine.csv', Bucket=credentials['BUCKET'], Key='wine_data.csv')
+        print(" Is folder path exists? ", folder_path)
         date_dirs = os.listdir(folder_path)
+        print(" Got date_dirs = ", date_dirs)
         for date_dir in date_dirs:
             # self.ibm_client.create_folder(bucket_name, date_dir)
             path_date_dir = os.path.join(folder_path, date_dir)

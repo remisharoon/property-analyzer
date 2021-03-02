@@ -35,5 +35,6 @@ except Exception as e:
 
 
 print(cfg['ibm_credentials.auth_endpoint'])
- 
+print("IBM_RESOURCE_INSTANCE_ID = ", cfg['ibm_credentials.resource_instance_id'])
+
 # iam_serviceid_crn: ${IBM_SERVICEID_CRN}
