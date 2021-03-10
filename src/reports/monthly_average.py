@@ -17,6 +17,7 @@ class MonthlyAverage(BaseReport):
                 with open(os.path.join(root, file), "r") as json_data_file:
                     json_lines = json_data_file.readlines()
                     for jsonstr in json_lines:
+                        print(jsonstr)
                         json_data = json.loads(jsonstr)
                         data_dict = {}
                         data_dict['source'] = json_data['source'].strip()
@@ -44,6 +45,7 @@ class MonthlyAverage(BaseReport):
         # results = list(cursor)
         # pprint.pprint(results)
         df = self.read_all_recs()
+        print(df.head(2))
         df_avg = df.groupby(['city', 'num_bedrooms', 'year', 'month', 'source', 'listing_type']).mean().reset_index()
         # print(df_avg.head())
 

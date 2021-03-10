@@ -47,11 +47,11 @@
 // });
 
 
-import { csvParse } from 'd3-dsv';
+//import { csvParse } from 'd3-dsv';
 // import dataCsv from '../data/bar_chart';
-import dataCsv from '../data/bar_chart';
-
-import * as d3 from 'd3';
+//import dataCsv from '../data/bar_chart';
+//
+//import * as d3 from 'd3';
 
 // var fr=new FileReader(); 
 // fr.readAsText('../data/bar_chart'); 
@@ -71,23 +71,23 @@ import * as d3 from 'd3';
 //   var data = d3.csv.parse(result);
 // };
 
-d3.text("../data/dubai_2br_monthly_avg.csv", function(text) {
-  console.log("Helloooooooo")
-  console.log(d3.csvParseRows(text));
-});
-
-const data = csvParse(dataCsv, d => {
-  d.frequency = +d.frequency;
-  // console.log(d);
-  return d;
-});
+//d3.text("../data/dubai_2br_monthly_avg.csv", function(text) {
+//  console.log("Helloooooooo")
+//  console.log(d3.csvParseRows(text));
+//});
+//
+//const data = csvParse(dataCsv, d => {
+//  d.frequency = +d.frequency;
+//  // console.log(d);
+//  return d;
+//});
 
 // console.log(data);
 
 // console.log("am i logged???")
 // console.log(data_json);
 
-export default data;
+//export default data;
 
 // export default data_json;
 

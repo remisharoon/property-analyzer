@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 import json
 from src.models.propertyfinder import Propertyfinder
 from dataclasses import asdict, astuple, replace
-import random
 from src.parsers.prop_fndr_detail_parser import PropFndrDetailParser
 import datetime
 from bson import json_util

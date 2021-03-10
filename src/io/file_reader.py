@@ -11,7 +11,7 @@ class FileReader(FileClient):
         FileClient.__init__(self)
 
     def download_from_cloud(self, bucket_name,folder_name, file_name, dest_folder):
-        file_key = os.path.join(folder_name, file_name)
+        file_key = folder_name + "/" + file_name
         # self.ibm_client.cos.download_file(Bucket=bucket_name, Key='2020_07_17/pa_raw_data_2020_09_26_08_17_50.json', Filename='pa_raw_data_2020_09_26_08_17_50.json')
         # self.ibm_client.cos.download_file(Bucket=bucket_name, Key='2020_07_17/*', Filename='*.json')
         dest_folder_full_path = os.path.join(dest_folder, folder_name)
@@ -32,16 +32,15 @@ class FileReader(FileClient):
         #return [file.name for file in file_keys]
         return file_keys
 
-    def download_all_files(self):
-        bucket_name = 'pa-raw-data'
-        keys =  self.get_all_files_keys(bucket_name="pa-raw-data")['Contents']
+    def download_all_files(self, bucket_name, dest_folder):
+        keys =  self.get_all_files_keys(bucket_name=bucket_name)['Contents']
         for file_key in keys:
             print(file_key)
             key = file_key['Key']
             file_components = key.split("/")
             folder_name = file_components[0]
             file_name = file_components[1]
-            self.download_from_cloud(bucket_name=bucket_name, folder_name=folder_name, file_name=file_name, dest_folder= '../../data')
+            self.download_from_cloud(bucket_name=bucket_name, folder_name=folder_name, file_name=file_name, dest_folder= dest_folder)
 
 if __name__ == "__main__":
     fr = FileReader()
