@@ -17,6 +17,30 @@ import dp2brprices from '../data/dubai_2br_monthly_avg'
 
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
 
+const formatXAxis = (tickItem) => {
+
+  var date = new Date(tickItem);
+  
+  // Hours part from the timestamp
+  var hours = date.getHours();
+  // Minutes part from the timestamp
+  var minutes = "0" + date.getMinutes();
+  // Seconds part from the timestamp
+  var seconds = "0" + date.getSeconds();
+  
+  var month = "0" + date.getMonth();
+
+  var year = "0" + date.getFullYear();
+
+  // Will display time in 10:30:23 format
+  var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
+
+  var formattedMonthYear = date.getMonth() + ':' + date.getFullYear();
+  
+  console.log(formattedTime);
+
+  return formattedMonthYear;
+}
 
 export default () => (
   <Layout>
@@ -41,11 +65,11 @@ export default () => (
             data={dp2brprices}
             margin={{ top: 1, right: 2, left: 1, bottom: 1 }}
             >
-            <XAxis dataKey="name" />
+            <XAxis dataKey="date" tickFormatter={formatXAxis}/>
             <Tooltip />
             {/* <CartesianGrid stroke="#f5f5f5" /> */}
-            <Line type="monotone" dataKey="uv" stroke="#ff7300" yAxisId={0} />
-            <Line type="monotone" dataKey="pv" stroke="#387908" yAxisId={1} />
+            <Line type="monotone" dataKey="listing_type" stroke="#ff7300" yAxisId={0} />
+            <Line type="monotone" dataKey="city" stroke="#387908" yAxisId={1} />
             <Line type="monotone" dataKey="price" activeDot={false} yAxisId={2} />
         </LineChart>
         {/* <div className="lg:w-1/2">

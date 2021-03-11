@@ -18,16 +18,19 @@ class MonthlyAverage(BaseReport):
                     json_lines = json_data_file.readlines()
                     for jsonstr in json_lines:
                         print(jsonstr)
-                        json_data = json.loads(jsonstr)
-                        data_dict = {}
-                        data_dict['source'] = json_data['source'].strip()
-                        data_dict['listing_type'] = json_data['listing_type'].strip()
-                        data_dict['num_bedrooms'] = json_data['num_bedrooms']
-                        data_dict['city'] = json_data['city'].strip()
-                        data_dict['year'] = json_data['year']
-                        data_dict['month'] = json_data['month']
-                        data_dict['price'] = json_data['price']
-                        data_dicts.append(data_dict)
+                        try:
+                            json_data = json.loads(jsonstr)
+                            data_dict = {}
+                            data_dict['source'] = json_data['source'].strip()
+                            data_dict['listing_type'] = json_data['listing_type'].strip()
+                            data_dict['num_bedrooms'] = json_data['num_bedrooms']
+                            data_dict['city'] = json_data['city'].strip()
+                            data_dict['year'] = json_data['year']
+                            data_dict['month'] = json_data['month']
+                            data_dict['price'] = json_data['price']
+                            data_dicts.append(data_dict)
+                        except Exception as e:
+                            print(e)
         df = pd.DataFrame(data_dicts)
         # print(df.head())
         return df
@@ -47,12 +50,13 @@ class MonthlyAverage(BaseReport):
         df = self.read_all_recs()
         print(df.head(2))
         df_avg = df.groupby(['city', 'num_bedrooms', 'year', 'month', 'source', 'listing_type']).mean().reset_index()
-        # print(df_avg.head())
+        print(df_avg.head())
 
-        # df_avg.to_csv('avg_price.csv', sep=",", index=False)
+        df_avg.to_csv('avg_price.csv', sep=",", index=False)
         df_avg = pd.read_csv('avg_price.csv')
         dubai_2br_monthly_avg = df_avg.loc[(df_avg['city'] == 'Dubai') & (df_avg['num_bedrooms'] == 2.0)]
         print(dubai_2br_monthly_avg.head())
+
         # with open('avg_price.csv', 'w', newline='\n', encoding='utf-8') as csv_file:
         #     fieldnames = ['city', 'bedrooms', 'year', 'month', 'price']
         #     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
