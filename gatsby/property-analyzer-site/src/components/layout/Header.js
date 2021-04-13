@@ -1,4 +1,6 @@
 import React from 'react';
+// import { NavLink, BrowserRouter, Link} from "react-router-dom";
+import { Link } from "gatsby"
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
@@ -19,18 +21,24 @@ const Header = () => (
         <AnchorLink className="px-4" href="#services">
           Services
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
+        <AnchorLink className="px-3" href="#stats">
           Stats
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
+        <AnchorLink className="px-3" href="#testimonials">
           Testimonials
         </AnchorLink>
         <AnchorLink className="px-4" href="#market_analysis">
           Market Analysis
-        </AnchorLink>        
-        <AnchorLink className="px-4" href="/about/" to="/about/">
+        </AnchorLink>   
+        <Link className="px-3" to="/knowledge_center">
+          Knowledge Center
+        </Link>   
+        <Link className="px-3" to="/qna/">
+          Q & A
+        </Link>                        
+        <Link className="px-3" to="/about">
           About
-        </AnchorLink>            
+        </Link>
       </div>
       <div className="hidden md:block">
         <Button className="text-sm">Start The Journey</Button>
