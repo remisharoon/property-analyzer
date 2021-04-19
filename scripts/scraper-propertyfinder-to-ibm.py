@@ -95,6 +95,7 @@ def parse_listing(listing):
         print("page = ", pagenum, data['date_insert'])
         key = {'listing_id': data['listing_id'], 'posted_date_ts': posted_date_ts}
         res = prop_table.get_item(Key={'listing_id': data['listing_id'], 'posted_date_ts': posted_date_ts})
+
         if 'Item' in res:
             item = res['Item']
             print("Item exists in dynamo :", item)
@@ -106,6 +107,7 @@ def parse_listing(listing):
             raise MyException('stopppppp!')
         else:
             prop_table.put_item(Item={'listing_id': key['listing_id'], 'posted_date_ts': key['posted_date_ts']})
+
             # keys.append(key)
         # prop_collection.replace_one(key, data, True)
 

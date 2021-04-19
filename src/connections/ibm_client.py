@@ -31,11 +31,12 @@ class IBMClient:
 
     def upload_file_cos(self,bucket, local_file_name,key):
         try:
+            print('Uploading file {}'.format(local_file_name))
             res= self.cos.upload_file(Filename=local_file_name, Bucket=bucket,Key=key)
         except Exception as e:
             print(Exception, e)
         else:
-            print('File Uploaded')
+            print('File Uploaded, file_name = {}'.format(local_file_name))
 
     def download_file_cos(self,bucket, file_name,key):
         try:
