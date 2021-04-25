@@ -4,6 +4,7 @@ from src.connections.ibm_client import IBMClient
 from src.common.config import cfg
 from src.io.file_client import FileClient
 from typing import List
+import datetime
 
 class FileReader(FileClient):
 
@@ -25,22 +26,39 @@ class FileReader(FileClient):
         else:
             self.ibm_client.cos.download_file(Bucket=bucket_name, Key=file_key, Filename=dest_file_full_path)
 
-    def get_all_files_keys(self, bucket_name: str) -> List[object]:
-        # file_keys = self.ibm_client.list_keys(bucket_name)
-        file_keys = self.ibm_client.cos.list_objects(Bucket = bucket_name)
-        #print(",".join(file_keys.name))
-        #return [file.name for file in file_keys]
-        return file_keys
+    # def get_all_files_keys(self, bucket_name: str) -> List[object]:
+    #     # file_keys = self.ibm_client.list_keys(bucket_name)
+    #     file_keys = self.ibm_client.cos.list_objects(Bucket = bucket_name)
+    #     #print(",".join(file_keys.name))
+    #     #return [file.name for file in file_keys]
+    #     return file_keys
 
     def download_all_files(self, bucket_name, dest_folder):
-        keys =  self.get_all_files_keys(bucket_name=bucket_name)['Contents']
+        # keys =  self.get_all_files_keys(bucket_name=bucket_name)['Contents']
+        keys = self.ibm_client.list_keys(bucket_name)
         for file_key in keys:
             print(file_key)
-            key = file_key['Key']
+            # key = file_key['Key']
+            key = file_key
             file_components = key.split("/")
             folder_name = file_components[0]
             file_name = file_components[1]
             self.download_from_cloud(bucket_name=bucket_name, folder_name=folder_name, file_name=file_name, dest_folder= dest_folder)
+
+    def get_hwm_ts_epoch(self, bucket_name):
+        keys = self.ibm_client.list_keys(bucket_name)
+        hwm = 0
+        for key in keys:
+            print(key)
+            file_components = key.split("/")
+            folder_name = file_components[0]
+            folder_date = datetime.datetime.strptime(folder_name, "%Y_%m_%d")
+            dt_epoch = int(folder_date.timestamp())
+            print(dt_epoch)
+            if dt_epoch > hwm:
+                hwm = dt_epoch
+        return hwm
+
 
 if __name__ == "__main__":
     fr = FileReader()

@@ -29,3 +29,10 @@ dynamodb:
     region_name: "eu-central-1"
     aws_access_key_id: ${DYNAMODB_ACCESS_KEY_ID}
     aws_secret_access_key: ${DYNAMODB_SECRET_ACCESS_KEY}
+
+netlify:
+    api_key: ${NETLIFY_API_KEY}
+    site_id: ${NETLIFY_SITE_ID}
+
+github:
+    api_key: ${GITHUB_API_KEY}

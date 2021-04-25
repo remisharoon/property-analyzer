@@ -24,10 +24,18 @@ class IBMClient:
             print(bucket.name)
 
     def list_keys(self, bucket_name):
-        files = self.cos.Bucket(bucket_name).objects.all()
-        for file in files:
-            print(file.key)
-        return [file.key in files]
+        """Get a list of all keys in bucket."""
+        keys = []
+        kwargs = {'Bucket': bucket_name}
+        while True:
+            resp =  self.cos.list_objects_v2(**kwargs)
+            for obj in resp['Contents']:
+                keys.append(obj['Key'])
+            try:
+                kwargs['ContinuationToken'] = resp['NextContinuationToken']
+            except KeyError:
+                break
+        return keys
 
     def upload_file_cos(self,bucket, local_file_name,key):
         try:

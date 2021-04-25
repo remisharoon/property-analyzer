@@ -39,6 +39,10 @@ class FileWriter(object):
         print(" Is folder path exists? ", folder_path)
         date_dirs = os.listdir(folder_path)
         print(" Got date_dirs = ", date_dirs)
+
+        keys = self.ibm_client.list_keys(bucket_name)
+        print(keys)
+
         for date_dir in date_dirs:
             # self.ibm_client.create_folder(bucket_name, date_dir)
             path_date_dir = os.path.join(folder_path, date_dir)
@@ -46,4 +50,7 @@ class FileWriter(object):
             for filename in files:
                 file_path = os.path.join(path_date_dir, filename)
                 to_file_path = date_dir + "/" + filename
-                self.ibm_client.upload_file_cos(bucket_name , file_path, to_file_path)
+                if to_file_path not in keys:
+                    self.ibm_client.upload_file_cos(bucket_name , file_path, to_file_path)
+                else:
+                    print("File {} is already in cloud".format(to_file_path))

@@ -11,6 +11,7 @@ import datetime
 from bson import json_util
 from src.connections.dynamodb_client import DynamodbClient
 from src.io.file_writer import FileWriter
+from src.io.file_reader import FileReader
 
 class MyException(Exception):
     pass
@@ -96,15 +97,23 @@ def parse_listing(listing):
         key = {'listing_id': data['listing_id'], 'posted_date_ts': posted_date_ts}
         res = prop_table.get_item(Key={'listing_id': data['listing_id'], 'posted_date_ts': posted_date_ts})
 
+        if current_hwm < posted_date_ts:
+            current_hwm = posted_date_ts
+
+        if posted_date_ts < pa_raw_data_hwm:
+            print("HWM reached, exiting :")
+            move_to_cloud()
+            sys.exit()
+
         if 'Item' in res:
             item = res['Item']
             print("Item exists in dynamo :", item)
-            move_to_cloud()
-            # for ikey in keys:
-            #     prop_table.put_item(Item={'listing_id': ikey['listing_id'], 'posted_date_ts': ikey['posted_date_ts']})
-            # break
-            sys.exit()
-            raise MyException('stopppppp!')
+            # move_to_cloud()
+            # # for ikey in keys:
+            # #     prop_table.put_item(Item={'listing_id': ikey['listing_id'], 'posted_date_ts': ikey['posted_date_ts']})
+            # # break
+            # sys.exit()
+            # raise MyException('stopppppp!')
         else:
             prop_table.put_item(Item={'listing_id': key['listing_id'], 'posted_date_ts': key['posted_date_ts']})
 
@@ -153,14 +162,22 @@ def move_to_cloud():
 ddc = DynamodbClient()
 prop_table = ddc.dynamodb_aws.Table("properties")
 print(prop_table.table_status)
+pa_raw_data_hwm_table = ddc.dynamodb_aws.Table("pa_raw_data_hwm")
+print(pa_raw_data_hwm_table.table_status)
 
 l_listing_type = "Sale"
 url_base_res_sale_uae = "https://www.propertyfinder.ae/en/search?c=1&ob=nd&page="
 url_base = url_base_res_sale_uae
 fw = FileWriter()
+fr = FileReader()
 keys = []
 start = 1
 end = 2000
+
+bucket_name = "pa-raw-data"
+pa_raw_data_hwm = fr.get_hwm_ts_epoch(bucket_name)
+current_hwm = 0
+
 for pagenum in range(start, end):
     url = url_base + str(pagenum)
     print(url)
